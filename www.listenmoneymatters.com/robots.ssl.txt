@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+SITEMAP: https://www.listenmoneymatters.com/sitemap_index.xml

@@ -1,0 +1,23 @@
+User-Agent: *
+
+#WP Import Export Rule
+User-agent: *
+Disallow: /wp-content/uploads/wp-import-export-lite/
+Disallow: /category-sitemap.xml
+Disallow: /post_tag-sitemap.xml
+Disallow: /author-sitemap.xml
+Disallow: /subscription-success/
+Disallow: /success/
+Disallow: /download-success/
+
+Noindex: /wp-content/uploads/wp-import-export-lite/
+Noindex: /category-sitemap.xml
+Noindex: /post_tag-sitemap.xml
+Noindex: /author-sitemap.xml
+Noindex: /subscription-success/
+Noindex: /success/
+Noindex: /download-success/
+
+Sitemap: https://vivaldigroup.com/sitemap_index.xml
+Sitemap: https://vivaldigroup.com/post-sitemap.xml
+Sitemap: https://vivaldigroup.com/page-sitemap.xml

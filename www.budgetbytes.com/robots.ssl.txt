@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /cdn-cgi/
+Disallow: /montserrat-800italic.woff2
+Disallow: */comment-page*
+Disallow: /search/*
+Disallow: /?s*
+Disallow: /login/*
+
+Sitemap: https://www.budgetbytes.com/sitemap_index.xml

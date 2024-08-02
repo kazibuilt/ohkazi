@@ -1,0 +1,20 @@
+# --------------------------------------------------------------------------
+# Global Directives
+# --------------------------------------------------------------------------
+User-agent: *
+# --------------------------------------------------------------------------
+# XML Sitemaps
+# --------------------------------------------------------------------------
+Sitemap: https://www.pitneybowes.com/us/sitemap.xml
+Sitemap: https://www.pitneybowes.com/uk/sitemap.xml
+Sitemap: https://www.pitneybowes.com/ca/sitemap.xml
+Sitemap: https://www.pitneybowes.com/ca/fr/sitemap.xml
+Sitemap: https://www.pitneybowes.com/de/sitemap.xml
+Sitemap: https://www.pitneybowes.com/jp/sitemap.xml
+Sitemap: https://www.pitneybowes.com/au/sitemap.xml
+Sitemap: https://www.pitneybowes.com/fr/sitemap.xml
+Sitemap: https://www.pitneybowes.com/br/sitemap.xml
+Sitemap: https://www.pitneybowes.com/in/sitemap.xml
+Sitemap: https://www.pitneybowes.com/nz/sitemap.xml
+Sitemap: https://www.pitneybowes.com/ie/sitemap.xml
+Sitemap: https://www.pitneybowes.com/latam/sitemap.xml

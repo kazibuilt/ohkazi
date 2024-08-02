@@ -1,0 +1,5 @@
+Sitemap: https://marketrealist.com/gNewsSitemap.xml/
+Sitemap: https://marketrealist.com/sitemap_index.xml/
+
+User-agent: *
+Disallow:

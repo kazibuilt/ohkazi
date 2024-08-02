@@ -1,0 +1,34 @@
+User-agent: *
+Allow: /api/utilities/v1/imageproxy
+Disallow: /maestro/api/
+Disallow: /api/
+Disallow: /maestro/
+Disallow: /ui/
+Disallow: /signature/voucher/
+Disallow: /account/
+Disallow: /acclaimbadge/
+Disallow: /voucher/
+Disallow: /search
+Disallow: /learn-perf/
+Disallow: /specializations-perf/
+Disallow: /professional-certificates-perf/
+Disallow: /learn-noperf/
+Disallow: /specializations-noperf/
+Disallow: /professional-certificates-noperf/
+Disallow: /career-academy/programs/
+Disallow: /business/xmlrpc.php
+Disallow: /business/wp-content/uploads/ 
+Sitemap: https://www.coursera.org/sitemap.xml
+
+
+User-agent: CCBot
+Disallow: /lecture/
+
+User-agent: GPTBot
+Disallow: /lecture/
+
+User-agent: LinkedInBot
+Allow: /account/accomplishments/
+
+User-agent: Twitterbot
+Allow: /account/accomplishments/

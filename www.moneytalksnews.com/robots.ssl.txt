@@ -1,0 +1,18 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: /trackback/
+Disallow: /deals/?
+Disallow: /workers/personalizer/
+Disallow: /workers/geo/
+Disallow: /workers/comments/
+Disallow: /workers/products/
+Disallow: /workers/youtube/
+Disallow: /workers/cf-custom-pages/
+Disallow: /workers/newsletter/
+Disallow: /cdn-cgi/zaraz/
+Disallow: /out/
+
+Sitemap: https://www.moneytalksnews.com/wp-sitemap.xml

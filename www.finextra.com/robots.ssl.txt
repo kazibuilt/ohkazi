@@ -1,0 +1,127 @@
+Sitemap: https://www.finextra.com/sitemaps/index.aspx
+Sitemap: https://www.finextra.com/sitemaps/sitemap.xml
+Sitemap: https://www.finextra.com/sitemaps/headlines.aspx
+Sitemap: https://www.finextra.com/sitemaps/headlinesgooglenews.aspx
+Sitemap: https://www.finextra.com/rss/headlines.aspx
+Sitemap: https://www.finextra.com/rss/blogs.aspx
+Sitemap: https://www.finextra.com/rss/jobs.aspx
+Sitemap: https://www.finextra.com/rss/events.aspx
+
+User-agent: atomicbot
+User-agent: atomicbot/1.0
+User-agent: OvalEarthBot
+User-agent: OvalEarthBot/2.2.0
+User-agent: AISearchBot
+User-agent: Baiduspider
+User-agent: Baiduspider-video
+User-agent: Baiduspider-image
+User-agent: YoudaoBot
+User-agent: NaverBot
+User-agent: Yeti
+User-Agent: Domain Re-Animator Bot
+User-Agent: rbs-crawler
+User-Agent: rbs-crawler+
+User-agent: R6_CommentReader
+User-agent: R6_FeedReader
+User-agent: Flamingo_SearchEngine+(+http://www.flamingosearch.com/bot)
+User-agent: Flamingo_SearchEngine
+User-agent: AHC/1.0
+User-agent: AHC/2.0
+User-agent: MauiBot (crawler.feedback+wc@gmail.com)
+User-agent: MauiBot (crawler.feedback+dc@gmail.com)
+User-agent: MauiBot+(crawler.feedback+wc@gmail.com)
+User-agent: MauiBot+(crawler.feedback+dc@gmail.com)
+User-agent: BLEXBot
+User-agent: AndersPinkBot/1.1
+User-agent: Freshbot/4.0
+User-agent: Seekport Crawler
+User-agent: PetalBot
+User-agent: ShiroyagiCrawler/1.0
+User-agent: SemrushBot
+Disallow: /
+
+#Twitter Robot
+User-agent: Twitterbot
+Allow: /finextra-images/
+
+#Google Robot
+User-agent: Googlebot
+User-agent: Googlebot/2.1
+User-agent: bingbot
+Allow: /finextra-images/top_pics/xl/
+Allow: /rss/
+Disallow: /webservices/
+Disallow: /finextra-downloads/research/
+Disallow: /finextra-downloads/surveys/
+Disallow: /community/login.aspx
+Disallow: /community/members/editblog.aspx
+Disallow: /resources/featurelisting.aspx?page
+Disallow: /careers/joblisting.aspx?
+Disallow: /about/emailunsubscribe.aspx
+Disallow: /webservices/
+Disallow: /WebServices/
+Disallow: /research/thankyou.aspx
+Disallow: /search.aspx
+Disallow: /*?*returnurl=
+Crawl-delay:5
+
+#linkedinUser-agent: LinkedInBot/1.0
+Allow: /finextra-images/top_pics/xl/
+Allow: /rss/
+Allow: /sitemaps/
+Disallow: /community/login.aspx
+Disallow: /community/members/editblog.aspx
+Disallow: /resources/featurelisting.aspx?page
+Disallow: /careers/joblisting.aspx?
+Disallow: /about/emailunsubscribe.aspx
+7Disallow: /webservices/
+Disallow: /WebServices/
+Disallow: /research/thankyou.aspx
+Disallow: /search.aspx
+Disallow: /*?*returnurl=
+Crawl-delay:30
+
+
+#Yandex Robot
+User-agent: Yandex
+Allow: /finextra-images/top_pics/xl/
+Allow: /rss/
+Allow: /sitemaps/
+Disallow: /webservices/
+Disallow: /finextra-downloads/research/
+Disallow: /finextra-downloads/surveys/
+Disallow: /community/login.aspx
+Disallow: /community/members/editblog.aspx
+Disallow: /resources/featurelisting.aspx?page
+Disallow: /careers/joblisting.aspx?
+Disallow: /about/emailunsubscribe.aspx
+Disallow: /webservices/
+Disallow: /WebServices/
+Disallow: /research/thankyou.aspx
+Disallow: /search.aspx
+Disallow: /*?*returnurl=
+Crawl-delay:60
+
+#SentiBot Robot
+User-agent: SentiBot
+Crawl-delay:120
+
+
+
+User-agent: *
+Crawl-delay: 60
+Disallow: /finextra-downloads/research/
+Disallow: /finextra-downloads/surveys/
+Disallow: /finextra-images/
+Disallow: /banners/
+Disallow: /surveys/
+Disallow: /rss/
+Disallow: /community/login.aspx
+Disallow: /community/members/editblog.aspx
+Disallow: /resources/featurelisting.aspx?page
+Disallow: /careers/joblisting.aspx?
+Disallow: /about/emailunsubscribe.aspx
+Disallow: /webservices/
+Disallow: /research/thankyou.aspx
+Disallow: /search.aspx
+Disallow: /*?*returnurl=

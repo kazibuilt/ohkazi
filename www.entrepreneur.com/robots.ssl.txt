@@ -1,0 +1,26 @@
+User-agent: *
+Disallow:/search
+Disallow:/dashboard
+Disallow:/article-scroll
+
+User-agent: GPTBot
+Disallow: /
+
+Sitemap: https://www.entrepreneur.com/sitemap/xml/news/1.xml
+Sitemap: https://www.entrepreneur.com/sitemap/xml/all/1.xml
+Sitemap: https://www.entrepreneur.com/sitemap/xml/webinars/1.xml
+Sitemap: https://www.entrepreneur.com/sitemap/xml/taxonomy/1.xml
+Sitemap: https://www.entrepreneur.com/sitemap/xml/tags/1.xml
+Sitemap: https://www.entrepreneur.com/sitemap/xml/providers/1.xml
+Sitemap: https://www.entrepreneur.com/sitemap/xml/podcasts/1.xml
+Sitemap: https://www.entrepreneur.com/sitemap/xml/objects/6.xml
+Sitemap: https://www.entrepreneur.com/sitemap/xml/objects/5.xml
+Sitemap: https://www.entrepreneur.com/sitemap/xml/objects/4.xml
+Sitemap: https://www.entrepreneur.com/sitemap/xml/objects/3.xml
+Sitemap: https://www.entrepreneur.com/sitemap/xml/objects/2.xml
+Sitemap: https://www.entrepreneur.com/sitemap/xml/magazines/1.xml
+Sitemap: https://www.entrepreneur.com/sitemap/xml/franchises/1.xml
+Sitemap: https://www.entrepreneur.com/sitemap/xml/encyclopedia/1.xml
+Sitemap: https://www.entrepreneur.com/sitemap/xml/businessideas/1.xml
+Sitemap: https://www.entrepreneur.com/sitemap/xml/authors/1.xml
+Sitemap: https://www.entrepreneur.com/sitemap/xml/objects/1.xml

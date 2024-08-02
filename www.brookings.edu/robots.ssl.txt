@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /?*qry
+Disallow: /?*topics
+Disallow: /?*regions
+Disallow: /?*experts
+Disallow: /?*entities
+Disallow: /*?s=
+Disallow: /search/
+
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow:
+
+Sitemap: https://www.brookings.edu/sitemap_index.xml
+# ---------------------------
+# END YOAST BLOCK

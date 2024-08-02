@@ -1,0 +1,8 @@
+Sitemap: https://www.debt.org/sitemap_index.xml
+
+User-agent: *
+Disallow: /search/
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /parser_log.txt
+Disallow: /wp-content/themes/debt/js/debt-consolidation-calculatorOLD

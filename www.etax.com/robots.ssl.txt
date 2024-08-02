@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /terms/
+Disallow: /about/privacy/
+Disallow: /support/system-requirements/
+Disallow: /support/tax-identity/
+Disallow: /support/audit-assistant/
+Disallow: /unsubscribe/

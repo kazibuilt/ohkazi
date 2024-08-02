@@ -1,0 +1,31 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://thehill.com/sitemap.xml
+Sitemap: https://thehill.com/news-sitemap.xml
+Sitemap: https://thehill.com/video-sitemap.xml
+Sitemap: https://thehill.com/virtual-sitemaps.xml
+Disallow: */?s=
+Disallow: */search/
+Disallow: /page/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/client-mu-plugins/
+Disallow: /wp-includes/css/
+Disallow: /wp-includes/js/
+Disallow: /wp-content/themes/nexstar/client/build/js/
+Disallow: /wp-content/themes/nexstar/client/build/css/
+Disallow: /nxs-video-player/
+
+User-agent: GPTBot
+Disallow: /
+
+User-Agent: PerplexityBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+

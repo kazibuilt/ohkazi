@@ -1,0 +1,19 @@
+User-Agent: *
+Allow: /
+Disallow: /2922/
+Disallow: /blocks/
+Disallow: /write-a-review/
+Disallow: /360tour-ajax/
+Disallow: /quickquotes/
+Disallow: /image/
+
+User-agent: proximic
+Disallow: /s/
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+Sitemap: https://www.thecarconnection.com/sitemap.xml

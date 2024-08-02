@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /loan-explorer/landingpage
+Disallow: /offers-ui/
+Disallow: /path/
+Disallow: /legal/advertising-disclosures/
+Sitemap: https://www.lendingtree.com/sitemap.xml

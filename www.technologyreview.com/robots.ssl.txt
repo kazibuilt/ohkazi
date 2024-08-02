@@ -1,0 +1,20 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /*.pdf$
+
+## OpenAI GPTBot crawler (https://platform.openai.com/docs/gptbot)
+User-agent: GPTbot
+Disallow: /
+
+## OpenAI ChatGPT service (https://platform.openai.com/docs/plugins/bot)
+User-agent: ChatGPT-User
+Disallow: /
+
+## Common Crawl crawler (https://commoncrawl.org/faq)
+User-agent: CCBot
+Disallow: /
+
+## Google Bard / Gemini crawler (https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers)
+User-agent: Google-Extended
+Disallow: /

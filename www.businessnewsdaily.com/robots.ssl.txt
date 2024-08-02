@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /search
+
+Sitemap: https://www.businessnewsdaily.com/sitemap_index.xml
+
+

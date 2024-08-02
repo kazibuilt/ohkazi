@@ -1,0 +1,14 @@
+user-agent: *
+disallow: /ajax/
+disallow: /search/
+disallow: /monitor/home
+disallow: /search
+disallow: /search?=
+disallow: /mobile/search/
+disallow: /mobile/monitor/home
+disallow: /mobile/search
+disallow: /mobile/search?=
+disallow: /search
+sitemap: https://www.wfmynews2.com/sitemap.xml
+sitemap: https://www.wfmynews2.com/feeds/googlenews
+sitemap: https://www.wfmynews2.com/feeds/googlevideos

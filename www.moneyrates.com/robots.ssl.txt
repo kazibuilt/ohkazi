@@ -1,0 +1,20 @@
+User-agent: *
+Disallow: /socialmedia
+Disallow: /virtual
+Disallow: /admin
+Disallow: /admin-rates
+Disallow: /rate-tool/
+Disallow: /common
+Disallow: /downloads
+Disallow: /uploadedfiles
+Disallow: /bankdeals/
+Disallow: /ListingDisplay/
+Disallow: /privacy.htm
+Disallow: /terms-of-service.htm
+Disallow: /search/
+Disallow: */go/*
+Disallow: /ListingDisplay/
+Disallow: *?term=*
+Disallow: *?amount=*
+
+Sitemap: https://www.moneyrates.com/sitemap.xml

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /sandbox/
+Sitemap: https://www.nahb.org/sitemap.xml

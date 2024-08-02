@@ -1,0 +1,6 @@
+# BEGIN YOAST SEO SITEMAP
+Sitemap: https://www.iwillteachyoutoberich.com/sitemap_index.xml
+# END YOAST SEO SITEMAP
+
+User-Agent: *
+Disallow: /search

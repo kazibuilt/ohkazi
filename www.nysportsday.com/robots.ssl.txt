@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /visit/
+Disallow: /claim/
+Disallow: /search/
+Disallow: /page/
+Disallow: /*?s=
+Disallow: /*?br=
+
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://www.nysportsday.com/sitemap_index.xml

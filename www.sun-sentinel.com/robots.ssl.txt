@@ -1,0 +1,40 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /cgi-bin/
+Disallow: /wp-includes/
+Disallow: /xmlrpc.php
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/cache/
+Disallow: /trackback/
+Disallow: /comments/
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: grapeshot
+Disallow:
+
+User-Agent: Mozilla/5.0 (compatible; NewsRoom.BI/0.1; +http://www.newsroom.bi/bot.html)
+Allow: /
+User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA51N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Mobile Safari/537.36 (compatible; mrfCompass-Booldog/1.0)
+Allow: /
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36(KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36 (compatible; mrfCompass-Booldog/1.0)
+Allow: /
+User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; mrfCompass-Marshall/1.0)
+Allow: /
+User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA51N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Mobile Safari/537.36 (compatible; mrfCompass-Jukebox/1.0)
+Allow: /
+
+User-Agent: PerplexityBot
+Disallow: /
+
+# Sitemap archive
+Sitemap: https://www.sun-sentinel.com/sitemap.xml
+

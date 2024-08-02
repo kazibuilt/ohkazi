@@ -1,0 +1,20 @@
+# MBT4
+User-agent: Screaming Frog SEO Spider
+Allow: /
+
+User-agent: *
+Allow: /
+Allow: *.js
+Allow: *.css
+Allow: *.jpg
+Allow: *.gif
+Allow: *.png
+Disallow: */Reviews/new
+Disallow: /search
+Disallow: /banking/search
+Disallow: /banking-search-result
+Disallow: /locations-search-result
+Disallow: /vote
+
+
+Sitemap: https://www.mybanktracker.com/sitemap_index.xml

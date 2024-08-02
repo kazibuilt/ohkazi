@@ -1,0 +1,114 @@
+User-agent: *
+Disallow: stage.www.spglobal.com
+Disallow: stage.www.spglobal.com/*
+Disallow: dev.www.spglobal.com
+Disallow: dev.www.spglobal.com/*
+Disallow: qa.www.spglobal.com
+Disallow: qa.www.spglobal.com/*
+Disallow: preview.prod.spglobal.com
+Disallow: prod.spglobal.com
+Disallow: preview.prod.spglobal.com/*
+Disallow: prod.spglobal.com/*
+Disallow: dev.spglobal.com
+Disallow: dev.author.spglobal.com
+Disallow: qa.spglobal.com
+Disallow: qa.author.spglobal.com
+Disallow: stage.author.spglobal.com
+Disallow: stage.spglobal.com
+Disallow: preview.stage.spglobal.com
+Disallow: preprod.author.spglobal.com
+Disallow: preprod.spglobal.com
+Disallow: dev.spglobal.com/*
+Disallow: dev.author.spglobal.com/*
+Disallow: qa.spglobal.com/*
+Disallow: qa.author.spglobal.com/*
+Disallow: stage.author.spglobal.com/*
+Disallow: stage.spglobal.com/*
+Disallow: preview.stage.spglobal.com/*
+Disallow: preprod.author.spglobal.com/*
+Disallow: preprod.spglobal.com/*
+Disallow:/en/search
+Disallow:/marketintelligence/en/search
+Disallow:/ratings/en/search
+Disallow:/engineering/en/search
+Disallow:/mobility/en/search
+Disallow:/platts/en/search-results*
+Disallow:sandpglobal-spgcdn-test.cphostaccess.com*
+Disallow:prod.aws.platts.com
+Disallow:/platts/en/our-methodology/subscriber-notes/*
+Disallow:/platts/en/our-methodology/price-symbols/*
+Disallow:/platts/en/our-methodology/corrections/*
+Disallow:/commodity-insights/en/our-methodology/subscriber-notes/*
+Disallow:/commodity-insights/en/our-methodology/price-symbols/*
+Disallow:/commodity-insights/en/our-methodology/corrections/*
+Disallow:/commodityinsights/en/our-methodology/subscriber-notes/*
+Disallow:/commodityinsights/en/our-methodology/price-symbols/*
+Disallow:/commodityinsights/en/our-methodology/corrections/*
+Disallow:/platts/*/search-results*
+Disallow:/platts/*_contact_entries/external*
+Disallow:/platts/*/about/_pressreleases
+Disallow:/commodity-insights/en/search-results*
+Disallow:/commodity-insights/*/search-results*
+Disallow:/commodity-insights/*_contact_entries/external*
+Disallow:/commodity-insights/*/about/_pressreleases
+Disallow:/commodityinsights/en/search-results*
+Disallow:/commodityinsights/*/search-results*
+Disallow:/commodityinsights/*_contact_entries/external*
+Disallow:/commodityinsights/*/about/_pressreleases
+Disallow:prod.aws.platts.com
+Disallow:www-prod.platts.com.es
+Disallow:www-prod.platts.cn
+Disallow:www-prod.platts.kr
+Disallow:www-prod.platts.ru
+Disallow:/platts/PlattsContent/_assets/_files/en/dimensions-pro/platts-product-management-release-notes.pdf
+Disallow:/commodity-insights/PlattsContent/_assets/_files/en/dimensions-pro/platts-product-management-release-notes.pdf
+Disallow:/commodityinsights/PlattsContent/_assets/_files/en/dimensions-pro/platts-product-management-release-notes.pdf
+Disallow:/commodityinsights/*/Home/ChangeLanguage/*
+Disallow:/spdji/*/rss/rss-details/
+Disallow:/spdji/*/idsfactsheet*/
+Disallow:/spdji/*/idsenhancedfactsheet*/
+Disallow:/spdji/*/idsexport*/
+Disallow:/spdji/*/multimedia-center/*?
+Disallow:/spdji/*/client-services/
+Disallow:/spdji/*/documents/client-services/
+Disallow:/spdji/*/client-services
+Disallow:/spdji/*/documents/clientservices/
+Disallow:/spdji/*/supplemental-data/*?
+Disallow:/spdji/*/search/
+Disallow:/spdji/*/util/redesign/index-specialization-ri-solr-json.dot
+Disallow:/spdji/*/util/redesign/press-room/get-pr-news-announcements-solr-json.dot
+Disallow:/spdji/*/util/redesign/index-family-ri-solr-json.dot
+Allow:/spdji/*/multimedia-center/?p
+Disallow: /*pagenotfound.html
+Disallow: /*PageNotFound.html
+Disallow: /*error.html
+Disallow: /*Error.html
+Disallow: /*forms/
+Disallow: /*.ashx
+Disallow: /*?noheader
+Allow:/esg/scores/results?cid=*
+Sitemap: https://www.spglobal.com/en/sitemap.xml
+Sitemap: https://www.spglobal.com/ratings/en/sitemap.xml
+Sitemap: https://www.spglobal.com/esg/csa/sitemap.xml
+Sitemap: https://www.spglobal.com/esg/sitemap-compids.xml
+Sitemap: https://www.spglobal.com/marketintelligence/en/sitemap.xml
+Sitemap: https://www.spglobal.com/marketintelligence/en/sitemap-index.xml
+Sitemap: https://www.spglobal.com/marketintelligence/en/mi-news-sitemap.xml
+Sitemap: https://www.spglobal.com/commodityinsights/en/sitemap-index
+Sitemap: https://www.spglobal.com/spdji/en/sitemap/
+Sitemap: https://www.spglobal.com/mobility/en/sitemap.xml
+Sitemap: https://www.spglobal.com/engineering/en/sitemap.xml
+Sitemap: https://www.spglobal.com/commodityinsights/en/ci/sitemap.xml
+Sitemap: https://www.spglobal.com/en/enterprise/sitemap.xml
+Sitemap: https://www.spglobal.com/esg/s1/sitemap.xml
+Sitemap: https://www.spglobal.com/marketintelligence/en/mi/sitemap.xml
+Sitemap: https://www.spglobal.com/spdji/es/sitemap/
+Sitemap: https://www.spglobal.com/spdji/pt/sitemap/
+Sitemap: https://www.spglobal.com/spdji/kr/sitemap/
+Sitemap: https://www.spglobal.com/spdji/jp/sitemap/
+Sitemap: https://www.spglobal.com/spdji/tc/sitemap/
+Sitemap: https://www.spglobal.com/spdji/zh/sitemap/
+User-agent: Twitterbot
+Allow: /spdji/*
+User-agent: Googlebot-Image
+Disallow: /spdji/*

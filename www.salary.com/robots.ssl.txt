@@ -1,0 +1,219 @@
+# robots.txt for https://www.salary.com/
+
+User-agent: *
+Disallow: *.pdf
+
+Disallow: /passages/
+
+Disallow: /feed/
+Disallow: /*/feed/
+Disallow: /wp-admin/
+
+Disallow: /tools/executive-compensation-calculator/
+Disallow: /tools/salary-calculator/
+Disallow: /tools/benefits-calculator/
+Disallow: /tools/cost-of-living-calculator/
+Disallow: /tools/global-salary-calculator/
+Disallow: /swz-request-demo/
+Disallow: /job/searchresults
+Disallow: /job/JobBoard/SalAjxGetIbarData
+Disallow: /research/salary/JobSalary/SalAjxGetIbarData
+Disallow: /research/cost-of-living/CostOfLiving/SalAjxGetLocationsByKeyword
+Disallow: /job/JobBoard/SalAjxGetLocationsByKeyword
+Disallow: /research/salary/JobSalary/SalAjxGetLocationsByKeyword
+Disallow: /ca-job/searchresults
+Disallow: /ca-job/apply
+Disallow: /ca-job/JobBoard/SalAjxGetIbarData
+Disallow: /ca-job/JobBoard/SalAjxGetCANLocationsByKeyword
+
+
+
+
+
+
+User-agent: Twitterbot
+Disallow: *.pdf
+
+Disallow: /passages/
+
+Disallow: /feed/
+Disallow: /*/feed/
+Disallow: /wp-admin/
+
+Disallow: /tools/executive-compensation-calculator/
+Disallow: /tools/salary-calculator/
+Disallow: /tools/benefits-calculator/
+Disallow: /tools/cost-of-living-calculator/
+Disallow: /tools/global-salary-calculator/
+Disallow: /swz-request-demo/
+Disallow: /job/searchresults
+Disallow: /job/JobBoard/SalAjxGetIbarData
+Disallow: /research/salary/JobSalary/SalAjxGetIbarData
+Disallow: /research/cost-of-living/CostOfLiving/SalAjxGetLocationsByKeyword
+Disallow: /job/JobBoard/SalAjxGetLocationsByKeyword
+Disallow: /research/salary/JobSalary/SalAjxGetLocationsByKeyword
+Disallow: /ca-job/searchresults
+Disallow: /ca-job/apply
+Disallow: /ca-job/JobBoard/SalAjxGetIbarData
+Disallow: /ca-job/JobBoard/SalAjxGetCANLocationsByKeyword
+
+
+
+User-agent: Facebot
+Disallow: *.pdf
+
+Disallow: /passages/
+
+Disallow: /feed/
+Disallow: /*/feed/
+Disallow: /wp-admin/
+
+Disallow: /tools/executive-compensation-calculator/
+Disallow: /tools/salary-calculator/
+Disallow: /tools/benefits-calculator/
+Disallow: /tools/cost-of-living-calculator/
+Disallow: /tools/global-salary-calculator/
+Disallow: /swz-request-demo/
+Disallow: /job/searchresults
+Disallow: /job/JobBoard/SalAjxGetIbarData
+Disallow: /research/salary/JobSalary/SalAjxGetIbarData
+Disallow: /research/cost-of-living/CostOfLiving/SalAjxGetLocationsByKeyword
+Disallow: /job/JobBoard/SalAjxGetLocationsByKeyword
+Disallow: /research/salary/JobSalary/SalAjxGetLocationsByKeyword
+Disallow: /ca-job/searchresults
+Disallow: /ca-job/apply
+Disallow: /ca-job/JobBoard/SalAjxGetIbarData
+Disallow: /ca-job/JobBoard/SalAjxGetCANLocationsByKeyword
+
+
+
+User-agent: Petalbot
+Disallow: *.pdf
+
+Disallow: /passages/
+
+Disallow: /feed/
+Disallow: /*/feed/
+Disallow: /wp-admin/
+
+Disallow: /tools/executive-compensation-calculator/
+Disallow: /tools/salary-calculator/
+Disallow: /tools/benefits-calculator/
+Disallow: /tools/cost-of-living-calculator/
+Disallow: /tools/global-salary-calculator/
+Disallow: /swz-request-demo/
+Disallow: /job/searchresults
+Disallow: /job/JobBoard/SalAjxGetIbarData
+Disallow: /research/salary/JobSalary/SalAjxGetIbarData
+Disallow: /research/cost-of-living/CostOfLiving/SalAjxGetLocationsByKeyword
+Disallow: /job/JobBoard/SalAjxGetLocationsByKeyword
+Disallow: /research/salary/JobSalary/SalAjxGetLocationsByKeyword
+Disallow: /ca-job/searchresults
+Disallow: /ca-job/apply
+Disallow: /ca-job/JobBoard/SalAjxGetIbarData
+Disallow: /ca-job/JobBoard/SalAjxGetCANLocationsByKeyword
+
+
+
+
+Sitemap: https://www.salary.com/sitemap_index.xml
+Sitemap: https://www.salary.com/sitemap_wp_index.xml
+Sitemap: https://www.salary.com/sitemap/sitemap_cl_index.xml
+Sitemap: https://www.salary.com/sitemap/rjindex.xml
+Sitemap: https://www.salary.com/sitemap/cansitemapindex.xml
+Sitemap: https://www.salary.com/sitemap/hjindex.xml
+Sitemap: https://www.salary.com/sitemap/jdindex.xml
+Sitemap: https://www.salary.com/sitemap/jlindex.xml
+Sitemap: https://www.salary.com/sitemap/exc/bc.xml
+Sitemap: https://www.salary.com/sitemap/mw/mw.xml
+Sitemap: https://www.salary.com/sitemap/jf/jf.xml
+Sitemap: https://www.salary.com/sitemap/gw/ukindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/ukcindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/inindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/incindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/auindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/aucindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/ieindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/iecindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/deindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/decindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/sgindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/jpindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/jpcindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/nlindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/nlcindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/frindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/frcindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/brindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/brcindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/esindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/escindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/coindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/cocindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/mxindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/mxcindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/plindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/plcindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/cnindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/cncindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/arindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/arcindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/ptindex.xml
+Sitemap: https://www.salary.com/sitemap/gw/ptcindex.xml
+Sitemap: https://www.salary.com/sitemap/jbc/jbc.xml
+Sitemap: https://www.salary.com/sitemap/jbc/jbcjindex.xml
+Sitemap: https://www.salary.com/sitemap/jbcs/jbcs.xml
+Sitemap: https://www.salary.com/sitemap/opj/opj.xml
+Sitemap: https://www.salary.com/sitemap/opj/opjsindex.xml
+Sitemap: https://www.salary.com/sitemap/opj/opjcindex.xml
+Sitemap: https://www.salary.com/sitemap/hrj/hrj.xml
+Sitemap: https://www.salary.com/sitemap/hrj/hrjsindex.xml
+Sitemap: https://www.salary.com/sitemap/hrj/hrjcindex.xml
+Sitemap: https://www.salary.com/sitemap/psj/psj.xml
+Sitemap: https://www.salary.com/sitemap/psj/psjsindex.xml
+Sitemap: https://www.salary.com/sitemap/psj/psjcindex.xml
+Sitemap: https://www.salary.com/sitemap/strcs/strcsindex.xml
+Sitemap: https://www.salary.com/sitemap/oj/oj.xml
+Sitemap: https://www.salary.com/sitemap/oj/ojsindex.xml
+Sitemap: https://www.salary.com/sitemap/oj/ojcindex.xml
+Sitemap: https://www.salary.com/sitemap/skmindex.xml
+Sitemap: https://www.salary.com/sitemap/newjbd/newjbdindex2020.xml
+Sitemap: https://www.salary.com/sitemap/newjbd/newjbdindex2021.xml
+Sitemap: https://www.salary.com/sitemap/newjbd/newjbdindex2022.xml
+Sitemap: https://www.salary.com/sitemap/newjbd/newjbdindex2023.xml
+Sitemap: https://www.salary.com/sitemap/newjbd/newjbdindex202304.xml
+Sitemap: https://www.salary.com/sitemap/newjbd/newjbdindex202305.xml
+Sitemap: https://www.salary.com/sitemap/newjbd/newjbdindex202306.xml
+Sitemap: https://www.salary.com/sitemap/newjbd/newjbdindex202307.xml
+Sitemap: https://www.salary.com/sitemap/newjbd/newjbdindex202308.xml
+Sitemap: https://www.salary.com/sitemap/newjbd/newjbdindex202309.xml
+Sitemap: https://www.salary.com/sitemap/newjbd/newjbdindex202310.xml
+Sitemap: https://www.salary.com/sitemap/newjbd/newjbdindex202311.xml
+Sitemap: https://www.salary.com/sitemap/newjbd/newjbdindex202312.xml
+Sitemap: https://www.salary.com/sitemap/newjbd/newjbdindex202401.xml
+Sitemap: https://www.salary.com/sitemap/newjbd/newjbdindex202402.xml
+Sitemap: https://www.salary.com/sitemap/newjbd/newjbdindex202403.xml
+Sitemap: https://www.salary.com/sitemap/newjbd/newjbdindex202404.xml
+Sitemap: https://www.salary.com/sitemap/newjbd/newjbdindex202405.xml
+Sitemap: https://www.salary.com/sitemap/newjbd/newjbdindex202406.xml
+Sitemap: https://www.salary.com/sitemap/newjbd/newjbdindex202407.xml
+Sitemap: https://www.salary.com/sitemap/newcajbd/newcajbdindex202401.xml
+Sitemap: https://www.salary.com/sitemap/newcajbd/newcajbdindex202402.xml
+Sitemap: https://www.salary.com/sitemap/newcajbd/newcajbdindex202403.xml
+Sitemap: https://www.salary.com/sitemap/newcajbd/newcajbdindex202404.xml
+Sitemap: https://www.salary.com/sitemap/newcajbd/newcajbdindex202405.xml
+Sitemap: https://www.salary.com/sitemap/newcajbd/newcajbdindex202406.xml
+Sitemap: https://www.salary.com/sitemap/newcajbd/newcajbdindex202407.xml
+Sitemap: https://www.salary.com/sitemap/zcjs/zcjsindex.xml
+Sitemap: https://www.salary.com/sitemap/zcs/zcsindex.xml
+Sitemap: https://www.salary.com/sitemap/co/coindex.xml
+Sitemap: https://www.salary.com/sitemap/jbs.xml
+Sitemap: https://www.salary.com/sitemap/zcs/cbi.xml
+Sitemap: https://www.salary.com/sitemap/ajd.xml
+Sitemap: https://www.salary.com/sitemap/hthrg.xml
+Sitemap: https://www.salary.com/sitemap/bbl.xml
+Sitemap: https://www.salary.com/sitemap/paa/paa.xml
+Sitemap: https://www.salary.com/sitemap/crj/crj.xml
+Sitemap: https://www.salary.com/sitemap/crj/crjc1.xml
+Sitemap: https://www.salary.com/sitemap/crj/crjs1.xml
+Sitemap: https://www.salary.com/sitemap/ddv.xml

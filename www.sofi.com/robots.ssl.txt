@@ -1,0 +1,45 @@
+User-agent: *
+Disallow: /wp/wp-admin/
+Disallow: /my/money/
+Disallow: /wealth/
+Disallow: /b/
+Disallow: /login/
+Disallow: /share/
+Disallow: /multi/
+Disallow: /event/
+Disallow: /wealth-dr/
+Disallow: /b/unsubscribe/
+Disallow: /comms-unsub/
+Disallow: /refer/
+Disallow: /r/
+Disallow: /daily/
+Disallow: /chat/
+Disallow: /dashboard/
+Disallow: /banking-service/
+Disallow: /resource-center/
+Disallow: /getthatraise/
+Disallow: /referral/
+Disallow: /cookiemonster/
+Disallow: /market-commentary/
+Disallow: /blog/tag/
+Disallow: /blog/category/
+Disallow: /learn/wp/wp-admin/
+Disallow: /blog/page/*?*
+Disallow: /web/
+Disallow: /at-work/
+Disallow: /learn/search/*
+Disallow: /blog/syndication/*?*
+
+Allow: /wealth/backend/api/
+Allow: /wp/wp-admin/admin-ajax.php
+
+Sitemap: https://www.sofi.com/learn/sitemap_index.xml
+Sitemap: https://www.sofi.com/sitemap_index.xml
+Sitemap: https://www.sofi.com/crypto-sitemap.xml
+Sitemap: https://www.sofi.com/stocks-sitemap.xml
+
+User-agent: archive.org_bot
+Disallow: /
+
+User-agent: ia_archiver
+Disallow: /

@@ -1,0 +1,41 @@
+User-agent: *
+Disallow: */wp-admin*
+# Prevent using redirect feature.
+Disallow: /wordpress/wp-admin/admin-ajax.php?action=get_geoip_country_modal_data_ajax
+Disallow: */wp-includes/*
+Disallow: */login
+Disallow: /redirect/*
+Disallow: */wp-login.php
+Disallow: /*?link
+Disallow: /search
+Disallow: /*?coupon
+Disallow: /*?pID
+Disallow: /*?pid
+Disallow: /*?link
+Disallow: /wp-api/1/user/me/notifications*
+Disallow: */feed/audit
+Disallow: /user/*
+# https://finder.atlassian.net/browse/ENG-481
+# Prevent crawling searches.
+# https://finder.atlassian.net/browse/CWS-452
+Disallow: /search/*
+# Prevent crawling search url parameters
+# https://finder.atlassian.net/browse/CON-229
+Disallow: *?search=*
+# Prevent crawling additional searches.
+# https://finder.atlassian.net/browse/CWS-497
+Disallow: /*/search/page/*
+
+# Prevent spam requests
+# https://finder.atlassian.net/browse/CC-1195
+Disallow: *?s=*
+
+Allow: /*?ver
+
+Sitemap: https://www.finder.com/sitemap_index.xml
+Sitemap: https://www.finder.com/uk/sitemap_index.xml
+Sitemap: https://www.finder.com/ca/sitemap_index.xml
+
+# News Sitemaps
+Sitemap: https://www.finder.com/sitemap-news.xml
+Sitemap: https://www.finder.com/uk/sitemap-news.xml

@@ -1,0 +1,31 @@
+###########################################################
+# These are Zesty-specific directives that cannot be edited
+###########################################################
+
+# Sitemap
+
+Sitemap: https://grow.acorns.com/sitemap.xml
+
+# All crawlers have access to your website
+
+User-agent: *
+Allow: /
+
+###########################################################
+# Below here are all custom commands
+###########################################################
+
+
+Disallow: /25-effortless-ways-to-earn-more-money-on-the-side/1*
+Allow: /25-effortless-ways-to-earn-more-money-on-the-side/1/
+Disallow: /25-effortless-ways-to-earn-more-money-on-the-side/2*
+Allow: /25-effortless-ways-to-earn-more-money-on-the-side/2/
+Disallow: /25-effortless-ways-to-earn-more-money-on-the-side/3*
+Allow: /25-effortless-ways-to-earn-more-money-on-the-side/3/
+Disallow: /25-effortless-ways-to-earn-more-money-on-the-side/4*
+Allow: /25-effortless-ways-to-earn-more-money-on-the-side/4/
+Disallow: /25-effortless-ways-to-earn-more-money-on-the-side/5*
+Disallow: /25-effortless-ways-to-earn-more-money-on-the-side/6*
+Disallow: /25-effortless-ways-to-earn-more-money-on-the-side/7*
+Disallow: /25-effortless-ways-to-earn-more-money-on-the-side/8*
+Disallow: /25-effortless-ways-to-earn-more-money-on-the-side/9*

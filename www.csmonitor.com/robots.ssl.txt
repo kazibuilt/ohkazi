@@ -1,0 +1,48 @@
+User-agent: Mediapartners-Google*
+Disallow: /includes/
+Disallow: /keepalive.html
+
+User-agent: NetShelter ContentScan
+Disallow: /
+
+User-agent: NetShelter
+Disallow: /
+
+User-agent: ^NetShelter
+Disallow: /
+
+User-agent: *
+Disallow: /sudoku
+Disallow: /404
+Disallow: /text_edition/
+Disallow: /digitalpdf/
+Disallow: /content/search
+Disallow: /content/advancedsearch
+Disallow: /content/download/
+Disallow: /layout/set/text/
+Disallow: /layout/set/print/
+Disallow: /layout/set/newsletter/
+Disallow: /layout/set/ap/
+Disallow: /layout/set/doc/
+Disallow: /layout/set/htm/
+Disallow: /layout/set/lmt/
+Disallow: /layout/set/newsml/
+Disallow: /layout/set/nfb/
+Disallow: /layout/set/nitf/
+Disallow: /layout/set/txt/
+Disallow: /layout/set/txt_pq/
+Disallow: /layout/set/xml/
+Disallow: /layout/set/csm/
+Disallow: /layout/set/basic/
+Disallow: /layout/set/rssfull/
+Disallow: /layout/set/tabletkiosk/
+Disallow: /content/view/full/
+Disallow: /1010203/
+Disallow: /tags/topic/
+Disallow: /csmlists/topic/
+Disallow: /csmlists/addbookmark/
+Disallow: /services/
+Disallow: /auth/
+Crawl-delay: 1
+
+Sitemap: https://www.csmonitor.com/sitemap-index.xml

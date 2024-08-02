@@ -1,0 +1,14 @@
+# robots.txt for https://www.ramseysolutions.com/
+Sitemap: https://www.ramseysolutions.com/sitemap.xml
+User-agent: * 
+Disallow: /error-pages
+Disallow: /elp
+Disallow: /recommends
+Disallow: /askdave
+Disallow: /smartvestor/api
+Disallow: /taxes/ramsey-tax-quiz
+Disallow: /.well-known
+Disallow: /content
+Disallow: /ramseyplus/classes
+Disallow: /ramseyplus/organization/promo
+Disallow: /ramseyplus/hosts

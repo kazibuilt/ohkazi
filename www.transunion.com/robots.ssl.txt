@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /content/dam/workfront-assets/truportfolio/
+Disallow: /external-links/
+Disallow: /marketing/
+Disallow: /content/dam/transunion/global/business/documents/fs2023/summit23/fs-summit-deck-debt-consolidation-in-a-rising-rate-economy.pdf
+Disallow: /content/dam/transunion/global/business/documents/Collection_of_an_Account_2009.pdf
+Disallow: /lp/ces-24-brunch-and-learn-rsvp
+
+User-agent: Eloqua Crawler
+Allow: /
+
+User-agent: Brightedge
+Allow: /
+Sitemap: https://www.transunion.com/sitemap.xml

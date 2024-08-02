@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /go/
+Disallow: /s/
+Sitemap: https://thefinancialbrand.com/sitemap_index.xml

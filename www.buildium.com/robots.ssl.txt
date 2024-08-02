@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: *.pdf$
+Disallow: /author/
+Disallow: /author/*
+Disallow: /blog/author/
+Disallow: /blog/author/*
+Allow: /wp-admin/admin-ajax.php
+Sitemap: https://www.buildium.com/sitemap_index.xml
+Disallow: /wp-includes/

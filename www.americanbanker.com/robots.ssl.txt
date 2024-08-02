@@ -1,0 +1,48 @@
+User-agent: *
+Disallow: /cms/
+Disallow: /_debug/
+Allow: /authors/
+Disallow: /search
+Disallow: /auth/
+
+User-agent: SemrushBot
+Allow: / 
+Crawl-delay: 5
+
+User-agent: SemrushBot-SA
+Allow: / 
+Crawl-delay: 5
+
+User-agent: SemrushBot-SI
+Allow: / 
+Crawl-delay: 5
+
+User-agent: SemrushBot-BA
+Allow: / 
+Crawl-delay: 5
+
+User-agent: BLP_bbot/0.1
+Allow: / 
+Crawl-delay: 10
+
+User-agent: CCBot/2.0
+Allow: / 
+Crawl-delay: 10
+
+User-agent: Bingbot
+Crawl-delay: 10
+
+User-agent: SentiBot
+Allow: / 
+Crawl-delay: 10
+
+User-agent: AhrefsBot/5.2
+Allow: / 
+Crawl-delay: 10
+
+User-agent:Baiduspider/2.0
+Disallow: /
+
+Sitemap: https://www.americanbanker.com/sitemap.xml
+Sitemap: https://www.americanbanker.com/news-sitemap.xml
+Sitemap: https://www.americanbanker.com/weekly-sitemap.xml

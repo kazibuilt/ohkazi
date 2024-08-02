@@ -1,0 +1,39 @@
+##################################################
+# Vanilla-wide rules                             #
+##################################################
+User-agent: *
+
+# Common path patterns (* prefix to handle localisation)
+Disallow: */deals/compare
+Disallow: */html/
+Disallow: */p/*/embed/captioned
+
+# Common query string patterns
+Disallow: *searchTerm=*
+Disallow: *sortBy=*
+Disallow: *productBrand=*
+Disallow: *%7B*%7D*
+
+# Infinite scroll paths
+Disallow: /infinite-scroll-article/*
+Disallow: /infinite-scroll-review/*
+Disallow: /infinite-scroll-recipe/*
+
+##################################################
+# Site-specific rules                            #
+##################################################
+User-Agent: *
+Disallow: *searchTerm=*
+Disallow: *sortBy=*
+Disallow: *productBrand=*
+Disallow: *jwsource=*
+Disallow: *region-switch=*
+Disallow: *%7B*%7D*
+
+Sitemap: https://moneyweek.com/sitemap.xml
+
+##################################################
+# Sitemaps                                       #
+##################################################
+User-agent: *
+Sitemap: https://moneyweek.com/sitemap.xml

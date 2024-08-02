@@ -1,0 +1,14 @@
+# robots.txt for https://www.cga.ct.gov
+
+User-agent: *
+Disallow: /cgi-bin/ 
+Disallow: /asp/cgabillstatus/
+Disallow: /asp/menu/
+Disallow: /audio/
+Disallow: /html/
+Disallow: /images/
+Disallow: /js/
+Disallow: /legpics/
+Disallow: /Misc/
+Disallow: /spincludes/
+Sitemap: https://cga.ct.gov/sitemap.xml

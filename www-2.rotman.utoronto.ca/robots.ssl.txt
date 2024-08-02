@@ -1,0 +1,36 @@
+# Group 1
+User-agent: Googlebot Disallow: /rotmanmag/
+User-agent: Googlebot
+Allow:/insightsHub/*
+
+# Group 2
+User-agent: *
+Allow:/insightsHub/*
+Allow:/~dtrefler
+Allow:/%7Edtrefler/*
+Allow:/morningmba
+Allow:/eveningmba
+Allow:/mfin
+Allow:/simutin
+Allow:/opher.baron/*
+Allow:/sitecore-facultybio/*
+Allow:/facbios/file/*
+Allow:/~hull/*
+Allow:/nexus/*
+Allow:/RePEc/ttp/*
+Allow:/iib/
+Allow:/RePEc/ttp/iibwps/*
+Allow:/RePEc/ttp/itpwps/*
+Allow:/execprog/index.html
+Allow:/sitemap.xml
+Allow:/insightsHub/sitemap.xml
+
+User-agent: Googlebot 
+Disallow: /rotmanmag/
+
+
+User-agent: *
+Disallow: /anita.mcgahan/ 
+
+
+

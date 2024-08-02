@@ -1,0 +1,12 @@
+# See http://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
+  # production
+  User-agent: *
+  Disallow: /styleguide
+  Disallow: /donate/receipt
+  Sitemap: https://s3-us-west-2.amazonaws.com/kuow-core-prod/sitemaps/sitemap.xml
+  User-agent: GPTBot
+  Disallow: /
+  User-agent: Google-Extended
+  Disallow: /
+  User-agent: Googlebot
+  Disallow: /search/
