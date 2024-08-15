@@ -1,6 +1,0 @@
-User-Agent: *
-Disallow: /cost-of-living-calculator/compare/*
-Disallow: /search/?p*
-Disallow: /search/?q*
-
-Sitemap: https://www.moneygeek.com/sitemap-index.xml

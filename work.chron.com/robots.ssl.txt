@@ -1,6 +1,0 @@
-User-agent: *
-Disallow: /blog-post.html*
-Disallow: /6117/
-Disallow: /search?*
-
-Sitemap: https://work.chron.com/sitemaps/sitemap.xml

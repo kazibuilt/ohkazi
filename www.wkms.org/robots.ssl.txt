@@ -1,5 +1,0 @@
-User-agent: * 
-Disallow:
-Sitemap: https://www.wkms.org/sitemap.xml
-Sitemap: https://www.wkms.org/news-sitemap-content.xml
-Sitemap: https://www.wkms.org/sitemap-latest.xml

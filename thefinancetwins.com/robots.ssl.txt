@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://thefinancetwins.com/sitemap_index.xml
