@@ -1,0 +1,110 @@
+:root {
+    --offset-bottom: var(--size-medium);
+    --margin-horizontal: var(--size-medium)
+}
+
+.download-mini.svelte-ttp5v2.svelte-ttp5v2 {
+    background-color: #000;
+    border: none;
+    border-radius: 100px;
+    padding: var(--size-smallest) var(--size-small);
+    font-size: 15px;
+    line-height: 1;
+    color: #fff;
+    font-family: var(--font-ocd);
+    text-transform: uppercase
+}
+
+.how-to-order.svelte-ttp5v2.svelte-ttp5v2 {
+    background-color: var(--color-accent);
+    display: block;
+    border-radius: var(--size-medium);
+    padding: var(--size-medium) var(--size-large);
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    border: none;
+    width: 100%;
+    text-align: left;
+    justify-self: flex-end;
+    margin-top: auto;
+    overflow: hidden;
+    min-height: 85px
+}
+
+.how-to-order.stickyBottom.svelte-ttp5v2.svelte-ttp5v2 {
+    position: sticky;
+    bottom: calc(var(--size-medium) + var(--offset-bottom));
+    left: var(--size-medium);
+    right: var(--size-medium);
+    z-index: var(--z-index-three)
+}
+
+@media (max-width: 991px) {
+    .how-to-order.stickyBottom.svelte-ttp5v2.svelte-ttp5v2 {
+        width: calc(100vw - 2 * var(--margin-horizontal))
+    }
+}
+
+.how-to-order-copy.svelte-ttp5v2.svelte-ttp5v2 {
+    flex-grow: 1;
+    font-size: 22px;
+    line-height: 1.2;
+    letter-spacing: -.4px;
+    font-family: var(--font-medium);
+    margin-top: -2px
+}
+
+.how-to-order-subtitle.svelte-ttp5v2.svelte-ttp5v2 {
+    opacity: .6;
+    font-family: var(--font-regular)
+}
+
+@media (max-width: 991px) {
+    .how-to-order-subtitle.svelte-ttp5v2.svelte-ttp5v2 {
+        font-size: 78%
+    }
+}
+
+.how-to-order-arrow.svelte-ttp5v2.svelte-ttp5v2 {
+    flex-grow: 0;
+    line-height: 0;
+    position: relative
+}
+
+.how-to-order-arrow.svelte-ttp5v2 .icon.svelte-ttp5v2 {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transition: none
+}
+
+.how-to-order-arrow.svelte-ttp5v2 .icon.svelte-ttp5v2:first-child {
+    opacity: 0;
+    transform: translate(-100%, -50%)
+}
+
+.how-to-order-arrow.svelte-ttp5v2 .icon.svelte-ttp5v2:last-child {
+    opacity: 1;
+    transform: translateY(-50%)
+}
+
+@media (min-width: 992px) {
+    .how-to-order.svelte-ttp5v2:hover .icon.svelte-ttp5v2 {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transition: all .3s
+    }
+
+    .how-to-order.svelte-ttp5v2:hover .icon.svelte-ttp5v2:first-child {
+        transform: translateY(-50%);
+        opacity: 1
+    }
+
+    .how-to-order.svelte-ttp5v2:hover .icon.svelte-ttp5v2:last-child {
+        transform: translate(100%, -50%);
+        opacity: 0
+    }
+}

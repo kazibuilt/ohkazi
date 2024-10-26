@@ -1,11 +1,26 @@
-# *
+
+
 User-agent: *
+
+
 Allow: /
-Disallow: /slice-simulator.html
-Disallow: /test
 
-# Host
-Host: https://humane.com
+Sitemap: https://rekki.com/sitemap.xml
+Sitemap: https://rekki.com/sitemap-food-wholesalers.xml
+Sitemap: https://rekki.com/sitemap-wholesaler-categories.xml
+Sitemap: https://rekki.com/sitemap-wholesalers.xml
+Sitemap: https://rekki.com/sitemap-top-search.xml
+Sitemap: https://rekki.com/sitemap-articles.xml
 
-# Sitemaps
-Sitemap: https://humane.com/sitemap.xml
+Sitemap: https://rekki.com/en-us/sitemap-food-wholesalers.xml
+Sitemap: https://rekki.com/en-us/sitemap-wholesaler-categories.xml
+Sitemap: https://rekki.com/en-us/sitemap-wholesalers.xml
+Sitemap: https://rekki.com/da/sitemap.xml
+Sitemap: https://rekki.com/de/sitemap.xml
+Sitemap: https://rekki.com/en-us/sitemap.xml
+Sitemap: https://rekki.com/es-us/sitemap.xml
+Sitemap: https://rekki.com/fr/sitemap.xml
+Sitemap: https://rekki.com/it/sitemap.xml
+Sitemap: https://rekki.com/nl/sitemap.xml
+
+

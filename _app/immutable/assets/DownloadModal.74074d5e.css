@@ -1,0 +1,203 @@
+.dropdown.svelte-1q0xcjm {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    max-height: 320px;
+    min-width: 240px;
+    overflow-x: scroll;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 16px 2px #0000001a;
+    padding: 6px 0;
+    z-index: 100
+}
+
+.dropup.svelte-1q0xcjm {
+    top: auto;
+    bottom: 100%
+}
+
+.item.svelte-1q0xcjm {
+    font-size: 16px;
+    padding: 6px 12px;
+    white-space: nowrap
+}
+
+.item.svelte-1q0xcjm:hover {
+    background-color: #f0f0f0
+}
+
+.item.highlighted.svelte-1q0xcjm {
+    background-color: #e7e7e7
+}
+
+.search-input.svelte-1q0xcjm {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    pointer-events: none
+}
+
+#qrcode.svelte-s1zte6 {
+    mix-blend-mode: multiply
+}
+
+.modal.svelte-1gr2vrp.svelte-1gr2vrp {
+    position: fixed;
+    top: 0;
+    left: 100vw;
+    width: 100vw;
+    height: 100%;
+    z-index: 100;
+    transition: all 0s .6s
+}
+
+.modal-backdrop.svelte-1gr2vrp.svelte-1gr2vrp {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    background-color: #000c;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity .6s
+}
+
+.modal-content.svelte-1gr2vrp.svelte-1gr2vrp {
+    transform: translate(100%);
+    transition: transform .6s;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: scroll;
+    width: 50%;
+    height: 100vh;
+    margin-left: 50%;
+    scroll-snap-type: y mandatory
+}
+
+@media (max-width: 991px) {
+    .modal-content.svelte-1gr2vrp.svelte-1gr2vrp {
+        width: 100%;
+        margin: 0;
+        height: 100%
+    }
+}
+
+.modal-close.svelte-1gr2vrp.svelte-1gr2vrp {
+    position: fixed;
+    top: var(--size-large);
+    left: var(--size-large);
+    border-radius: 50%;
+    border: 0;
+    width: calc(var(--size-largest) + 6px);
+    height: calc(var(--size-largest) + 6px);
+    cursor: var(--cursor-pointer);
+    background-color: #fff;
+    color: #000;
+    z-index: var(--z-index-one);
+    transition: transform .3s;
+    transform: translateY(-200%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0
+}
+
+@media (max-width: 991px) {
+    .modal-close.svelte-1gr2vrp.svelte-1gr2vrp {
+        transition: transform .6s;
+        left: auto;
+        transform: translate(100vw);
+        top: var(--size-large);
+        right: var(--size-medium)
+    }
+}
+
+.modal.show.svelte-1gr2vrp.svelte-1gr2vrp {
+    left: 0;
+    transition: all 0s 0s
+}
+
+.modal.show.svelte-1gr2vrp .modal-close.svelte-1gr2vrp {
+    transform: translate(0)
+}
+
+.modal.show.svelte-1gr2vrp .modal-close.svelte-1gr2vrp:hover {
+    transform: rotate(90deg)
+}
+
+.modal.show.svelte-1gr2vrp .modal-content.svelte-1gr2vrp {
+    transition: transform .6s;
+    transform: translate(0)
+}
+
+.modal.show.svelte-1gr2vrp .modal-backdrop.svelte-1gr2vrp {
+    opacity: 1
+}
+
+.ad.svelte-1gr2vrp.svelte-1gr2vrp {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #002350
+}
+
+.success.svelte-1gr2vrp .ad.svelte-1gr2vrp {
+    background-color: #163323
+}
+
+.ad.svelte-1gr2vrp .qr-code.svelte-1gr2vrp {
+    padding: var(--size-medium);
+    background-color: #fff;
+    width: auto;
+    display: inline-block
+}
+
+.business.svelte-1gr2vrp.svelte-1gr2vrp {
+    flex-basis: 50%;
+    position: relative;
+    flex-grow: 1;
+    background-color: #0063e1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.success.svelte-1gr2vrp .business.svelte-1gr2vrp {
+    background-color: #006943
+}
+
+.error.svelte-1gr2vrp .business.svelte-1gr2vrp {
+    background-color: #d11514
+}
+
+.business.svelte-1gr2vrp .send-sms-header.svelte-1gr2vrp {
+    align-self: flex-start;
+    padding: var(--size-larger) var(--size-medium);
+    font-family: var(--font-fruitshop);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 6.5277777778vw;
+    line-height: 5.1388888889vw;
+    letter-spacing: -.6944444444vw;
+    max-width: 80%
+}
+
+.error.svelte-1gr2vrp .business .send-sms-header.svelte-1gr2vrp {
+    transform: scale(.75);
+    transform-origin: 0 0
+}
+
+@media (max-width: 991px) {
+    .business.svelte-1gr2vrp .send-sms-header.svelte-1gr2vrp {
+        width: 80%;
+        font-size: 9.6618357488vw;
+        line-height: 7.4879227053vw;
+        letter-spacing: -.9661835749vw
+    }
+}

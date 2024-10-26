@@ -1,0 +1,258 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    line-height: 1
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+html:focus-within {
+    scroll-behavior: smooth
+}
+
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto
+}
+
+img,
+picture {
+    max-width: 100%;
+    display: block
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto
+    }
+
+    *,
+    *:before,
+    *:after {
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+        scroll-behavior: auto !important
+    }
+}
+
+@font-face {
+    font-family: REKKI-OCD;
+    src: url(https://rekki.com/sp_assets/fonts/REKKI-OCD.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: REKKI-Regular;
+    src: url(https://rekki.com/sp_assets/fonts/DiatypeREKKI-RegularTabnumbers.woff2) format("woff2"), url(https://rekki.com/sp_assets/fonts/DiatypeREKKI-RegularTabnumbers.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: REKKI-Medium;
+    src: url(https://rekki.com/sp_assets/fonts/DiatypeREKKI-MediumTabnumbers.woff2) format("woff2"), url(https://rekki.com/sp_assets/fonts/DiatypeREKKI-MediumTabnumbers.woff) format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: REKKI-Bolder;
+    src: url(https://rekki.com/sp_assets/fonts/DiatypeREKKI-Bolder.woff2) format("woff2"), url(https://rekki.com/sp_assets/fonts/DiatypeREKKI-Bolder.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: REKKI-Fruitshop;
+    src: url(https://rekki.com/sp_assets/fonts/REKKI-Fruitshop.woff2) format("woff2"), url(https://rekki.com/sp_assets/fonts/REKKI-Fruitshop.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+:root {
+    --color-accent: #0063e1;
+    --color-accent-foreground: #fff;
+    --color-dark: #000;
+    --color-light: #fff;
+    --color-placeholder: #afafaf;
+    --color-background: #e4e4e4;
+    --color-neutral-01: #e8e8e8;
+    --color-neutral-02: #cacaca;
+    --color-neutral-03: #8c8c8c;
+    --color-neutral-04: #3f3f3f;
+    --color-green: #006943;
+    --font-regular: "REKKI-Regular", sans-serif;
+    --font-medium: "REKKI-Medium", sans-serif;
+    --font-bolder: "REKKI-Bolder", sans-serif;
+    --font-fruitshop: "REKKI-Fruitshop", sans-serif;
+    --font-ocd: "REKKI-OCD", monospaced, sans-serif;
+    --z-index-hidden: -1;
+    --z-index-root: 0;
+    --z-index-one: 10;
+    --z-index-two: 20;
+    --z-index-three: 30;
+    --z-index-four: 40;
+    --z-index-five: 50;
+    --size-mini: 2px;
+    --size-smallest: 4px;
+    --size-smaller: 8px;
+    --size-small: 12px;
+    --size-medium: 16px;
+    --size-large: 20px;
+    --size-larger: 24px;
+    --size-largest: 32px;
+    --size-mega: 48px;
+    --cursor-default: url(https://rekki.com/sp_assets/cursor-default.svg) 6 4, default;
+    --cursor-pointer: url(https://rekki.com/sp_assets/cursor-pointer.svg) 10 5, pointer;
+    --breakpoint-lg-and-up: 991px;
+    --breakpoint-lg-up-to: 990px
+}
+
+.font-ocd-15 {
+    font-family: var(--font-ocd);
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: .5px;
+    text-align: left
+}
+
+body {
+    font-family: var(--font-regular);
+    background-color: #fff;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+    cursor: var(--cursor-default);
+    overscroll-behavior: none;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left
+}
+
+body* {
+    cursor: var(--cursor-default)
+}
+
+body.modal-open {
+    overflow: hidden
+}
+
+a,
+button,
+a *,
+button * {
+    cursor: var(--cursor-pointer)
+}
+
+section,
+.section {
+    padding-bottom: 40px
+}
+
+section:last-child,
+.section:last-child {
+    padding-bottom: 0
+}
+
+input,
+select,
+textarea {
+    border: 0;
+    border-radius: 6px;
+    padding: 10px 20px;
+    background-color: #ebebeb;
+    font-size: 18px;
+    width: 100%;
+    outline-color: var(--color-accent)
+}
+
+input::placeholder,
+select::placeholder,
+textarea::placeholder {
+    color: var(--color-placeholder)
+}
+
+input[type=search],
+.input-search {
+    border-radius: 24px
+}
+
+.widget-body {
+    transition: padding-top .2s ease-in-out .5s;
+    padding-top: 12px;
+    max-width: 880px;
+    margin: 0 auto
+}
+
+.widget-body.hasBasket {
+    padding-top: 32px
+}
+
+svg {
+    transform: translateZ(0)
+}
+
+.hidden,
+[hidden] {
+    display: none
+}
+
+.visibility-hidden {
+    visibility: hidden
+}
+
+.subheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end
+}
+
+.subheader-text {
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: -1px
+}
+
+.subheader-text .section-subtitle {
+    opacity: .3
+}

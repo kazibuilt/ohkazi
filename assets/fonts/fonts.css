@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "diatype";
+    src: url("/assets/ABCDiatypeCompressed-Bold.b6833123.woff") format("woff"), url("/assets/ABCDiatypeCompressed-Bold.58c396fa.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "everett";
+    src: url("/assets/Everett-Regular.e312977c.woff") format("woff"), url("/assets/Everett-Regular.3d76f02a.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "morganite-black";
+    src: url("/assets/Morganite-Black.0fa68076.woff") format("woff"), url("/assets/Morganite-Black.2ec6bb89.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "morganite-bold";
+    src: url("/assets/Morganite-Bold.c5777d02.woff") format("woff"), url("/assets/Morganite-Bold.27a29eae.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "morganite-bolditalic";
+    src: url("/assets/Morganite-BoldItalic.3b599496.woff") format("woff"), url("/assets/Morganite-BoldItalic.b15c2ebc.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "morganite";
+    src: url("/assets/Morganite-Black.0fa68076.woff") format("woff"), url("/assets/Morganite-Black.2ec6bb89.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "morganite";
+    src: url("/assets/Morganite-BlackItalic.6bea7c62.woff") format("woff"), url("/assets/Morganite-BlackItalic.b852898e.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "morganite";
+    src: url("/assets/Morganite-Bold.c5777d02.woff") format("woff"), url("/assets/Morganite-Bold.27a29eae.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "morganite";
+    src: url("/assets/Morganite-BoldItalic.3b599496.woff") format("woff"), url("/assets/Morganite-BoldItalic.b15c2ebc.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 700;
+}
+
+/* 
+:root {
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-blacknight: #121212;
+    --color-red: #f70806;
+    --color-platinum: #d9d9d9;
+    --color-silver: #ababab;
+}
+
+html.theme--light {
+    --color-white: #000000;
+    --color-black: #ffffff;
+    --color-blacknight: #e6e6e6;
+    --color-red: #f70806;
+    --color-platinum: #d9d9d9;
+    --color-silver: #ababab;
+} */

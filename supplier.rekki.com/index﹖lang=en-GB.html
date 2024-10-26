@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      REKKI
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#fff" />
+    <meta name="application-name" content="REKKI" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="assets/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="assets/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="assets/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="assets/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="assets/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="assets/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="assets/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="assets/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/apple-touch-icon-180x180.png"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="REKKI" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon-16x16.png"
+    />
+    <link rel="shortcut icon" href="assets/favicon.ico" />
+    <link
+      rel="apple-touch-startup-image"
+      media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)"
+      href="assets/apple-touch-startup-image-320x460.png"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)"
+      href="assets/apple-touch-startup-image-640x920.png"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"
+      href="assets/apple-touch-startup-image-640x1096.png"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)"
+      href="assets/apple-touch-startup-image-750x1294.png"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      media="(device-width: 414px) and (device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3)"
+      href="assets/apple-touch-startup-image-1182x2208.png"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      media="(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)"
+      href="assets/apple-touch-startup-image-1242x2148.png"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)"
+      href="assets/apple-touch-startup-image-748x1024.png"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)"
+      href="assets/apple-touch-startup-image-768x1004.png"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)"
+      href="assets/apple-touch-startup-image-1496x2048.png"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)"
+      href="assets/apple-touch-startup-image-1536x2008.png"
+    />
+    <script>
+      try {
+        document.addEventListener("DOMContentLoaded", function() {
+          try {
+            var item = window.localStorage.getItem("REKKI.DYN_CONF.SETTINGS");
+            if (!item) {
+              return;
+            }
+
+            if (JSON.parse(item).dynConfServicePrefixUrl === "https://backend.feat.rekki.com") {
+              var e = document.createElement("div");
+              e.style =
+                " background-color: red; border-radius: 0 0 4px 4px; color: white; font-size: 12px; font-family: Monaco, monospace; left: 50%; margin-left: -100px;  padding: 5px 0px; position: fixed; text-align: center; top: 0; width: 200px;";
+              e.textContent = "Connected to feat";
+              document.body.appendChild(e);
+            }
+          } catch (ex) {}
+        });
+      } catch (ex) {}
+    </script>
+    
+    <script>
+      // This sample uses the Autocomplete widget to help the user select a
+      // place, then it retrieves the address components associated with that
+      // place, and then it populates the form fields with those details.
+      // This sample requires the Places library. Include the libraries=places
+      // parameter when you first load the API. For example:
+      // <script
+      // src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
+
+      var placeSearch, autocomplete;
+
+      var componentForm = {
+        street_number: "short_name",
+        route: "long_name",
+        locality: "long_name",
+        administrative_area_level_1: "short_name",
+        country: "long_name",
+        postal_code: "short_name",
+      };
+
+      // Bias the autocomplete object to the user's geographical location,
+      // as supplied by the browser's 'navigator.geolocation' object.
+      function geolocate() {
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(function(position) {
+            var geolocation = {
+              lat: position.coords.latitude,
+              lng: position.coords.longitude,
+            };
+            var circle = new google.maps.Circle({ center: geolocation, radius: position.coords.accuracy });
+            autocomplete.setBounds(circle.getBounds());
+          });
+        }
+      }
+    </script>
+    <script
+      src="../maps.googleapis.com/maps/api/js/index%EF%B9%96key=AIzaSyDV6YMUTLK4nXcPZIqGZmCm2Ys5E_eYVMw&amp;libraries=places.js"
+      async
+      defer
+    ></script>
+     
+    <style>html, body, #react-root {
+            height: 100svh;
+            margin: 0;
+          }
+          * {
+            box-sizing: border-box;
+          }
+        
+    </style>
+    
+  </head>
+  <body>
+    <div id="react-root"></div>
+  <script type="text/javascript" src="runtime.33d518e6d67c20eae6ee.bundle.js"></script><script type="text/javascript" src="vendors~main.33d518e6d67c20eae6ee.bundle.js"></script><script type="text/javascript" src="main.33d518e6d67c20eae6ee.bundle.js"></script></body>
+</html>
