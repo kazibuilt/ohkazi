@@ -1,3 +1,66 @@
+@font-face {
+    font-family: "diatype";
+    src: url("/assets/fonts/ABCDiatypeCompressed-Bold.b6833123.woff") format("woff"), url("/assets/fonts/ABCDiatypeCompressed-Bold.58c396fa.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "everett";
+    src: url("/assets/fonts/Everett-Regular.e312977c.woff") format("woff"), url("/assets/fonts/Everett-Regular.3d76f02a.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "morganite-black";
+    src: url("/assets/fonts/Morganite-Black.0fa68076.woff") format("woff"), url("/assets/fonts/Morganite-Black.2ec6bb89.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "morganite-bold";
+    src: url("/assets/fonts/Morganite-Bold.c5777d02.woff") format("woff"), url("/assets/fonts/Morganite-Bold.27a29eae.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "morganite-bolditalic";
+    src: url("/assets/fonts/Morganite-BoldItalic.3b599496.woff") format("woff"), url("/assets/fonts/Morganite-BoldItalic.b15c2ebc.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "morganite";
+    src: url("/assets/fonts/Morganite-Black.0fa68076.woff") format("woff"), url("/assets/fonts/Morganite-Black.2ec6bb89.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "morganite";
+    src: url("/assets/fonts/Morganite-BlackItalic.6bea7c62.woff") format("woff"), url("/assets/fonts/Morganite-BlackItalic.b852898e.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "morganite";
+    src: url("/assets/fonts/Morganite-Bold.c5777d02.woff") format("woff"), url("/assets/fonts/Morganite-Bold.27a29eae.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "morganite";
+    src: url("/assets/fonts/Morganite-BoldItalic.3b599496.woff") format("woff"), url("/assets/fonts/Morganite-BoldItalic.b15c2ebc.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 700;
+}
+
 * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
@@ -376,7 +439,7 @@ body {
 @font-face {
     font-family: icons;
     src: url(fonts/icons.eot);
-    src: url(fonts/icons.eot#iefix) format("embedded-opentype"), url(fonts/icons.ttf) format("truetype"), url(fonts/icons.woff) format("woff"), url(fonts/icons.svg.html#icons) format("svg");
+    src: url(fonts/icons.eot#iefix) format("embedded-opentype"), url(fonts/icons.ttf) format("truetype"), url(fonts/icons.woff) format("woff"), url(fonts/icons.svg#icons) format("svg");
     font-weight: 400;
     font-style: normal;
     font-display: block
@@ -2404,7 +2467,7 @@ html.dark {
 }
 
 .feet-pallet {
-    background-image: url(images/landing/light-crate.svg.html);
+    background-image: url(images/landing/light-crate.svg);
     height: 58px;
     margin-bottom: -29px;
     background-size: 100% 100%;
@@ -2421,7 +2484,7 @@ html.dark {
 }
 
 .feet-pallet.dark {
-    background-image: url(images/landing/dark-crate.svg.html)
+    background-image: url(images/landing/dark-crate.svg)
 }
 
 .feet-solid {
@@ -16859,7 +16922,7 @@ html {
 .footer .footer-select,
 body,
 body :not(a) {
-    cursor: url(images/landing/new/arrow.svg.html) 10 10, default
+    cursor: url(images/landing/new/arrow.svg) 10 10, default
 }
 
 .cursor-arrow-i,
@@ -16868,7 +16931,7 @@ body :not(a) {
 .template-connect .qna .table-qna .qna-table tr.answer>td,
 .template-connect .qna .table-qna .qna-table tr.answer>th,
 .testimonial-carousel-chefs .slick-slide.slick-current {
-    cursor: url(images/landing/new/arrow.svg.html) 10 10, default !important
+    cursor: url(images/landing/new/arrow.svg) 10 10, default !important
 }
 
 .cookies-button,
@@ -16933,7 +16996,7 @@ body :not(a) {
 .testimonial:not(.active) *,
 a,
 a * {
-    cursor: url(images/landing/new/pointer.svg.html) 9 11, pointer !important
+    cursor: url(images/landing/new/pointer.svg) 9 11, pointer !important
 }
 
 a {
@@ -17113,11 +17176,11 @@ a {
 }
 
 .home .hero .hero-title {
-    font-family: REKKI-Fruitshop-Skinny, Helvetica;
+    font-family: 'morganite';
     text-transform: uppercase;
     margin-bottom: 0;
     margin-left: -5px;
-    font-size: 23.6714975845vw;
+    font-size: 20.6714975845vw;
     line-height: 18.9371980676vw;
     letter-spacing: -1.8115942029vw
 }
@@ -17251,7 +17314,7 @@ a {
 }
 
 .home .section-header-plus:before {
-    background: #fff url(images/suppliers-new/section-icon-plus.svg.html) 50% no-repeat;
+    background: #fff url(images/suppliers-new/section-icon-plus.svg) 50% no-repeat;
     background-size: 8px;
     animation: none !important
 }
@@ -18948,7 +19011,7 @@ a {
 .article-drawer-close:after,
 .article-drawer-close:before {
     content: "";
-    background: transparent url(images/landing/new/icons/article-drawer-close.svg.html) 50% no-repeat;
+    background: transparent url(images/landing/new/icons/article-drawer-close.svg) 50% no-repeat;
     width: 32px;
     height: 32px;
     position: absolute;
@@ -20212,7 +20275,7 @@ a {
     width: 6.5217391304vw;
     height: 6.5217391304vw;
     margin-right: 1.2077294686vw;
-    background: transparent url(images/landing/new/icons/mobile-nav-icon.svg.html) 50% no-repeat;
+    background: transparent url(images/landing/new/icons/mobile-nav-icon.svg) 50% no-repeat;
     background-size: contain
 }
 
@@ -22186,7 +22249,7 @@ a {
     width: 48px;
     height: 42px;
     padding: 0;
-    background-image: url(images/LightsOn/arrow-right.svg.html)
+    background-image: url(images/LightsOn/arrow-right.svg)
 }
 
 .modal#chefs .contact-sales-cta:hover .button-modal-arrow-container img {
@@ -22321,7 +22384,7 @@ a {
     content: "";
     width: 22px;
     height: 22px;
-    background: transparent url(images/chefs-new/bullet-check.svg.html) 50% no-repeat;
+    background: transparent url(images/chefs-new/bullet-check.svg) 50% no-repeat;
     background-size: contain;
     display: inline-block;
     margin-right: 13px;
@@ -23158,7 +23221,7 @@ a {
 
 .modal#chefs .signup-submit:before {
     content: "";
-    background: transparent url(images/LightsOn/arrow-right.svg.html) bottom no-repeat;
+    background: transparent url(images/LightsOn/arrow-right.svg) bottom no-repeat;
     background-size: contain;
     position: absolute;
     width: 17.6328502415vw;
@@ -27522,7 +27585,7 @@ a {
 
 .sign-up-link-description-nav:before {
     content: "";
-    background: transparent url(images/sign-up-nav.svg.html) bottom no-repeat;
+    background: transparent url(images/sign-up-nav.svg) bottom no-repeat;
     background-size: contain;
     position: absolute;
     width: 100%;
@@ -29009,7 +29072,7 @@ a.badge .icon-last {
 
 .get-the-app-for-chefs .get-the-app-submit:before {
     content: "";
-    background: transparent url(images/sign-up-nav.svg.html) bottom no-repeat;
+    background: transparent url(images/sign-up-nav.svg) bottom no-repeat;
     background-size: contain;
     position: absolute;
     width: calc(100% - 16px);
@@ -29151,7 +29214,7 @@ a.badge .icon-last {
 
 .get-the-app-sign-up .get-the-app-submit:before {
     content: "";
-    background: transparent url(images/sign-up-nav.svg.html) bottom no-repeat;
+    background: transparent url(images/sign-up-nav.svg) bottom no-repeat;
     background-size: contain;
     position: absolute;
     width: calc(100% - 16px);
@@ -29237,7 +29300,7 @@ a.badge .icon-last {
     top: 50%;
     transform: translateY(-50%);
     margin-right: 9px;
-    background: transparent url(images/phone-field-warning.svg.html);
+    background: transparent url(images/phone-field-warning.svg);
     background-size: contain;
     background-position: 50%;
     display: inline-block;
@@ -29303,7 +29366,7 @@ a.badge .icon-last {
 
 .button-modal-arrow-container:before {
     content: "";
-    background: transparent url(images/sign-up-nav.svg.html) bottom no-repeat;
+    background: transparent url(images/sign-up-nav.svg) bottom no-repeat;
     background-size: contain;
     position: absolute;
     width: 55px;
@@ -29565,7 +29628,7 @@ a.badge .icon-last {
 
 .modal#contact .business .submit-phone-number:before {
     content: "";
-    background: transparent url(images/LightsOn/arrow-right.svg.html) bottom no-repeat;
+    background: transparent url(images/LightsOn/arrow-right.svg) bottom no-repeat;
     background-size: contain;
     position: absolute;
     width: 55px;
@@ -30409,7 +30472,7 @@ a.badge .icon-last {
 @media(min-width:991px) {
     .modal#download .business .submit-phone-number:before {
         content: "";
-        background: transparent url(images/LightsOn/arrow-right.svg.html) bottom no-repeat;
+        background: transparent url(images/LightsOn/arrow-right.svg) bottom no-repeat;
         background-size: contain;
         position: absolute;
         top: 0;
@@ -31261,7 +31324,7 @@ a.badge .icon-last {
 
 .modal#talk-to-a-human .business .phone-number-section.sending .phone-number-form .submit-phone-number:before {
     opacity: 1 !important;
-    background-image: url(images/campaigns/submit-loading.svg.html) !important;
+    background-image: url(images/campaigns/submit-loading.svg) !important;
     background-size: 19.3236714976vw !important;
     background-position: 50% !important;
     animation: rotate_loading 1s linear infinite;
@@ -31342,7 +31405,7 @@ a.badge .icon-last {
 .modal#talk-to-a-human .business .phone-number-section.success .phone-number-form .submit-phone-number:before {
     transform: translateX(0) !important;
     opacity: 1 !important;
-    background-image: url(images/campaigns/check-field.svg.html) !important;
+    background-image: url(images/campaigns/check-field.svg) !important;
     background-size: 19.3236714976vw !important;
     background-position: 50% !important
 }
@@ -31470,7 +31533,7 @@ a.badge .icon-last {
 
 .modal#talk-to-a-human .business .submit-phone-number:before {
     content: "";
-    background: transparent url(images/LightsOn/arrow-right.svg.html) bottom no-repeat;
+    background: transparent url(images/LightsOn/arrow-right.svg) bottom no-repeat;
     background-size: contain;
     position: absolute;
     top: 0;
@@ -32617,7 +32680,7 @@ a.badge .icon-last {
 
 .modal#book-a-demo .business .phone-number-section.sending .phone-number-form .submit-phone-number:before {
     opacity: 1 !important;
-    background-image: url(images/campaigns/submit-loading.svg.html) !important;
+    background-image: url(images/campaigns/submit-loading.svg) !important;
     background-size: 19.3236714976vw !important;
     background-position: 50% !important;
     animation: rotate_loading 1s linear infinite;
@@ -32698,7 +32761,7 @@ a.badge .icon-last {
 .modal#book-a-demo .business .phone-number-section.success .phone-number-form .submit-phone-number:before {
     transform: translateX(0) !important;
     opacity: 1 !important;
-    background-image: url(images/campaigns/check-field.svg.html) !important;
+    background-image: url(images/campaigns/check-field.svg) !important;
     background-size: 19.3236714976vw !important;
     background-position: 50% !important
 }
@@ -32826,7 +32889,7 @@ a.badge .icon-last {
 
 .modal#book-a-demo .business .submit-phone-number:before {
     content: "";
-    background: transparent url(images/LightsOn/arrow-right.svg.html) bottom no-repeat;
+    background: transparent url(images/LightsOn/arrow-right.svg) bottom no-repeat;
     background-size: contain;
     position: absolute;
     top: 0;
@@ -33747,7 +33810,7 @@ h3+.embed-instagram {
     top: 41%;
     left: 55%;
     animation: point 1s infinite;
-    background: transparent url(images/landing/new/app-tooltip-hover.svg.html) no-repeat;
+    background: transparent url(images/landing/new/app-tooltip-hover.svg) no-repeat;
     background-position: 0;
     background-size: auto 100%;
     padding-left: 30px;
@@ -33763,7 +33826,7 @@ h3+.embed-instagram {
 
 .hero-video-desktop-wrapper .app-tooltip-content {
     padding-right: 54px;
-    background-image: url(images/landing/new/app-tooltip-hover.svg.html);
+    background-image: url(images/landing/new/app-tooltip-hover.svg);
     background-position: 100%;
     background-size: auto 100%;
     padding-top: 7px;
@@ -33773,11 +33836,11 @@ h3+.embed-instagram {
 
 .hero-video-desktop-wrapper .app-tooltip:hover {
     color: #fff;
-    background: transparent url(images/landing/new/app-tooltip.svg.html) no-repeat
+    background: transparent url(images/landing/new/app-tooltip.svg) no-repeat
 }
 
 .hero-video-desktop-wrapper .app-tooltip:hover .app-tooltip-content {
-    background-image: url(images/landing/new/app-tooltip.svg.html)
+    background-image: url(images/landing/new/app-tooltip.svg)
 }
 
 @media(max-width:992px) {
@@ -35071,7 +35134,7 @@ h3+.embed-instagram {
 
 .price-table .plan .plan-body ul li {
     padding: 0 0 4.8309178744vw 7.2463768116vw;
-    background: transparent url(images/suppliers-new/bullet-check.svg.html);
+    background: transparent url(images/suppliers-new/bullet-check.svg);
     background-repeat: no-repeat;
     background-size: 4.8309178744vw 4.8309178744vw;
     background-position: left .6038647343vw
@@ -35361,7 +35424,7 @@ h3+.embed-instagram {
     opacity: .6;
     padding-top: 2.4154589372vw;
     padding-left: 5.3140096618vw;
-    background: transparent url(images/suppliers-new/bullet-plus.svg.html);
+    background: transparent url(images/suppliers-new/bullet-plus.svg);
     background-repeat: no-repeat;
     background-size: 4.8309178744vw 4.8309178744vw;
     background-position: left 3.1400966184vw
@@ -35481,7 +35544,7 @@ h3+.embed-instagram {
 }
 
 .price-table .plan-email-only .plan-body ul li {
-    background-image: url(images/suppliers-new/bullet-dot.svg.html)
+    background-image: url(images/suppliers-new/bullet-dot.svg)
 }
 
 .price-table .plan-email-only .plan-price-number {
@@ -36940,7 +37003,7 @@ h3+.embed-instagram {
     height: 2.8985507246vw;
     margin-top: -.2173913043vw;
     display: inline-block;
-    background: transparent url(images/non-legit/error.svg.html) 50% no-repeat;
+    background: transparent url(images/non-legit/error.svg) 50% no-repeat;
     background-size: contain
 }
 
@@ -37740,7 +37803,7 @@ h3+.embed-instagram {
     border-radius: 7.2463768116vw;
     display: inline-block;
     background-color: #fff;
-    background-image: url(images/non-legit/check-mark.svg.html);
+    background-image: url(images/non-legit/check-mark.svg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: 3.9806763285vw 3.3816425121vw;
@@ -38163,7 +38226,7 @@ h3+.embed-instagram {
     border-radius: 7.2463768116vw;
     display: inline-block;
     background-color: #8c8c8c;
-    background-image: url(images/non-legit/check-mark.svg.html);
+    background-image: url(images/non-legit/check-mark.svg);
     background-position: center -21.7391304348vw;
     background-repeat: no-repeat;
     background-size: 3.9806763285vw 3.3816425121vw;
@@ -38294,7 +38357,7 @@ h3+.embed-instagram {
     transform: translateY(-50%);
     background-position: 60%;
     background-repeat: no-repeat;
-    background-image: url(images/non-legit/plus-sign.svg.html);
+    background-image: url(images/non-legit/plus-sign.svg);
     background-size: 4.8309178744vw 4.8309178744vw;
     width: 14.4927536232vw;
     height: 14.4927536232vw;
@@ -38496,7 +38559,7 @@ h3+.embed-instagram {
     content: "";
     width: 42px;
     height: 42px;
-    background: transparent url(images/campaigns/submit-loading.svg.html) 50% no-repeat;
+    background: transparent url(images/campaigns/submit-loading.svg) 50% no-repeat;
     animation: rotate_loading 1s linear infinite;
     position: absolute;
     left: 50%;
@@ -38521,7 +38584,7 @@ h3+.embed-instagram {
     content: "";
     width: 42px;
     height: 42px;
-    background: transparent url(images/campaigns/submit-check.svg.html) 50% no-repeat;
+    background: transparent url(images/campaigns/submit-check.svg) 50% no-repeat;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -40021,7 +40084,7 @@ h3+.embed-instagram {
 }
 
 .template-connect .get-in-touch-form.loading+.get-in-touch-cta .arrow:before {
-    background: transparent url(images/campaigns/submit-loading.svg.html) 50% no-repeat;
+    background: transparent url(images/campaigns/submit-loading.svg) 50% no-repeat;
     background-size: contain;
     animation: rotate_loading 1s linear infinite;
     opacity: 1;
@@ -40037,7 +40100,7 @@ h3+.embed-instagram {
         content: "";
         width: 42px;
         height: 42px;
-        background: transparent url(images/campaigns/submit-loading.svg.html) 50% no-repeat;
+        background: transparent url(images/campaigns/submit-loading.svg) 50% no-repeat;
         animation: rotate_loading 1s linear infinite;
         position: absolute;
         left: 50%;
@@ -40068,7 +40131,7 @@ h3+.embed-instagram {
 }
 
 .template-connect .get-in-touch-form.success+.get-in-touch-cta .arrow:before {
-    background: transparent url(images/campaigns/submit-check.svg.html) 50% no-repeat;
+    background: transparent url(images/campaigns/submit-check.svg) 50% no-repeat;
     background-size: contain;
     opacity: 1;
     right: 0
@@ -40083,7 +40146,7 @@ h3+.embed-instagram {
         content: "";
         width: 42px;
         height: 42px;
-        background: transparent url(images/campaigns/submit-check.svg.html) 50% no-repeat;
+        background: transparent url(images/campaigns/submit-check.svg) 50% no-repeat;
         position: absolute;
         left: 50%;
         top: 50%;
@@ -40147,7 +40210,7 @@ h3+.embed-instagram {
     top: 0;
     width: 100%;
     height: 100%;
-    background: transparent url(images/campaigns/connect/arrow.svg.html) 50% no-repeat;
+    background: transparent url(images/campaigns/connect/arrow.svg) 50% no-repeat;
     opacity: 0
 }
 
