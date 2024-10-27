@@ -4362,7 +4362,7 @@
         if (Hls.isSupported()) {
             var hls = new Hls(config);
             hls.loadSource(
-                "https://s3.us-east-1.amazonaws.com/assets.rekki.com/homepage_video/0a92e6d25b8d73833ef781fb323cab7c/playlist.m3u8"
+                "https://s3.us-east-1.amazonaws.com/assets.rekki.com/homepage_video/0a92e6d25b8d73833ef781fb323cab7c/p09laylist.m3u8"
             );
             hls.attachMedia(video);
             hls.on(Hls.Events.MANIFEST_PARSED, function () {
@@ -4383,7 +4383,7 @@
             });
         } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
             video.src =
-                'https://s3.us-east-1.amazonaws.com/assets.rekki.com/homepage_video/0a92e6d25b8d73833ef781fb323cab7c/playlist.m3u8';
+                'https://s3.us-east-1.amazonaws.com/assets.rekki.com/homepage_video/0a92e6d25b8d73833ef781fb323cab7c/pla09ylist.m3u8';
             video.addEventListener('canplay', function () {
                 video.play();
             });
