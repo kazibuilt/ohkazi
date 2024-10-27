@@ -41147,14 +41147,14 @@ h3+.embed-instagram {
     opacity: 0 !important
 }
 
-.hero-video-desktop-wrapper {
+.hero-video-desktop-container {
     background: url(/public-assets/images/landing/new/hero_mobile.jpg);
     background-size: cover;
     background-repaeat: no-repeat;
 }
 
 @media(min-width:991px) {
-.hero-video-desktop-wrapper {
+.hero-video-desktop-container {
     background: url(/public-assets/images/landing/new/hero_desktop.jpg);
     background-size: cover;
     background-repaeat: no-repeat;
