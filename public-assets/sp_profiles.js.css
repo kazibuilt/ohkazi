@@ -25551,3 +25551,7 @@ footer .footer-select+.dropdown-menu .dropdown-item:last-child {
 #error-msg:empty+* {
     display: block
 }
+
+* {
+    letter-spacing: 0px !important
+}
