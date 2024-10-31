@@ -545,34 +545,23 @@
 
             <div class="talk-to-human-scroll-container">
 
-                <div class="section wrapper">
-                    <div class="content">
-                      <div class="panel gray">
+                <div class="sectionh wrapperh">
+                    <div class="contenth">
+                      <div class="panelh gray">
                         <h1>Panel 1</h1>
                       </div>
-                      <div class="panel green">
+                      <div class="panelh green">
                         <h1>Panel 2</h1>
                       </div>
-                      <div class="panel red">
+                      <div class="panelh red">
                         <h1>Panel 3</h1>
                       </div>
-                      <div class="panel blue">
+                      <div class="panelh blue">
                         <h1>Panel 4</h1>
                       </div>
-                      <div class="panel gray">
-                        <h1>Panel 5</h1>
-                      </div>
-                      <div class="panel green">
-                        <h1>Panel 6</h1>
-                      </div>
-                      <div class="panel red">
-                        <h1>Panel 7</h1>
-                      </div>
-                      <div class="panel blue">
-                        <h1>Panel 8</h1>
                       </div>
                     </div>
-                  </div>
+                  
 
                         <section class="join-rekki" style="height:100vh">
                             <div class="section-header">join the team</div>
@@ -4413,18 +4402,18 @@
         }
     </script> -->
     <style>
-    .section {
+    .sectionh {
         width: 100%;
         height: 100vh;
         background-color: tomato;
       }
       
-      .wrapper {
+      .wrapperh {
         display: flex;
         background-color: gray;
       }
       
-      .content {
+      .contenth {
         width: 100%;
         height: 100vh;
         overflow: hidden;
@@ -4432,7 +4421,7 @@
         flex-wrap: nowrap;
       }
       
-      .panel {
+      .panelh {
         height: 100vh;
         flex: 1 0 100%;
         display: flex;
@@ -4467,13 +4456,13 @@
 <script type="text/javascript">
 console.clear();
 
-const panels = gsap.utils.toArray(".panel");
+const panels = gsap.utils.toArray(".panelh");
 gsap.to(panels, {
   xPercent: (i) => -100 * i,
   duration: (i) => i,
   ease: "none",
   scrollTrigger: {
-    trigger: ".wrapper",
+    trigger: ".wrapperh",
     start: "top top",
     end: "+=" + 100 * panels.length + "5",
     scrub: true,
