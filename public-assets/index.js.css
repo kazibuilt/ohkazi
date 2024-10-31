@@ -41145,13 +41145,14 @@ h3+.embed-instagram {
 }
 
 .hero {
-background: url('/public-assets/images/heronew_mobile.webp'); 
-background-size: cover; 
-height:100vh
+background: url('/public-assets/images/hero_m.png'); 
+background-size: 100vw auto; 
+height:100vh;
+background-position: left center;
 }
 
 @media(min-width:991px) {
 .hero {
-background: url('/public-assets/images/heronew_desktop.webp'); background-size: cover; height:100vh
+background: url('/public-assets/images/hero_d.png'); background-size: 100vw auto; height:100vh; background-position: left center;
 }
 }
