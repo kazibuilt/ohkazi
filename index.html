@@ -69,10 +69,10 @@
 
 
     <meta name="robots" content="index, follow, noodp, noydir">
-
+<!-- 
     <meta name="google-site-verification" content="zNSOJck9N2o79MK9uLEPwVzr0yVya-IdgF9Q44OeyC4" />
     <meta name="ahrefs-site-verification" content="d40a744988830fad812a9a8636597171e676b87954af0af2fa0a0ed176985f0c">
-    <meta name="facebook-domain-verification" content="ubscdte6wy3yuoz21sn0qpir3avcyg" />
+    <meta name="facebook-domain-verification" content="ubscdte6wy3yuoz21sn0qpir3avcyg" /> -->
 
     <script>
         window.ENVIRONMENT = "live"
@@ -493,19 +493,20 @@
 
         <div class="home-content">
             <div class="hero">
-                <div class="hero-video-desktop-wrapper">
+                <div class="hero-video-desktop-wrapper" style="height:100%">
                     <h1 class="hero-title">
 
-                        <span class="d-none d-lg-block">we power the kitchens <br> of our favorite restaurants.</span>
+                        <span class="d-none d-lg-block" id="fittext">we power the kitchens of<br>our favorite restaurants.</span>
                         <span class="d-lg-none">we power the kitchens
                             of our favorite restaurants.</span>
                     </h1>
                     <div class="hero-video-desktop-container">
-                        <video class="hero-video-desktop" poster="public-assets/images/home-video-poster.jpg" muted
+                        <!-- <video class="hero-video-desktop" poster="public-assets/images/home-video-poster.jpg" muted
                             autoplay loop playsinline>
 
-                        </video>
-                        <div class="testimonials-logos-carousel-container">
+                        </video> -->
+                        <p style="opacity: 0">s</p>
+                       <div class="testimonials-logos-carousel-container">
 
                             <div class="testimonials-logos-carousel">
                                 <div class="testimonials-logos-carousel-content">
@@ -545,13 +546,14 @@
                                 </div>
                             </div>
 
-                        </div>
-                    </div>
+                        </div> 
                 </div>
-                <video class="hero-video-mobile" poster="public-assets/images/home-video-poster.jpg" muted autoplay loop
+   
+         <!--                   <video class="hero-video-mobile" poster="public-assets/images/home-video-poster.jpg" muted autoplay loop
                     playsinline>
 
-                </video>
+                </video> -->
+                
             </div>
 
 
@@ -4297,7 +4299,7 @@
     <script src="../cdn.jsdelivr.net/npm/hls.js@latest.js"></script>
     <script src="../cdn.jsdelivr.net/npm/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
     <script src="public-assets/sp_profiles.js"></script>
-    <script>
+<!--     <script>
         const config = {
             autoStartLoad: true,
             startLevel: -1,
@@ -4388,8 +4390,11 @@
                 video.play();
             });
         }
-    </script>
-
+    </script> -->
+ 	<script src="/assets/js/fittext.js"></script>
+ 	<script type="text/javascript">
+ 	    fitText(document.getElementById('fittext'), .6)
+ 	</script>
 </body>
 
 </html>

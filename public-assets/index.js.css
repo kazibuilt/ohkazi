@@ -17053,7 +17053,7 @@ a {
     .home .home-content h2 {
         font-size: 10.6280193237vw;
         line-height: 12.3188405797vw;
-        letter-spacing: -.1376811594vw
+        letter-spacing: 0px
     }
 }
 
@@ -17083,13 +17083,13 @@ a {
 
 @media(min-width:1441px)and (min-width:641px) {
     .home .home-content h2 {
-        letter-spacing: -.076vw
+        letter-spacing: 0px
     }
 }
 
 @media(min-width:1441px)and (min-width:991px) {
     .home .home-content h2 {
-        letter-spacing: -.0395833333vw
+        letter-spacing: 0px
     }
 }
 
@@ -17101,7 +17101,7 @@ a {
     .home h3 {
         font-size: 36px;
         line-height: 30px;
-        letter-spacing: -2.7px;
+        letter-spacing: 0px;
         letter-spacing: 0;
         line-height: 1
     }
@@ -17178,11 +17178,11 @@ a {
 .home .hero .hero-title {
     font-family: 'morganite';
     text-transform: uppercase;
-    margin-bottom: 0;
-    margin-left: -5px;
-    font-size: 20.6714975845vw;
-    line-height: 18.9371980676vw;
-    letter-spacing: -1.8115942029vw
+letter-spacing: 0px;
+position: absolute;
+bottom: 0;
+left: 0;
+line-height: 0.8;
 }
 
 @media(min-width:641px) {
@@ -17199,25 +17199,23 @@ a {
 
 @media(min-width:641px) {
     .home .hero .hero-title {
-        line-height: 10.4533333333vw
     }
 }
 
 @media(min-width:991px) {
     .home .hero .hero-title {
-        line-height: 5.4444444444vw
     }
 }
 
 @media(min-width:641px) {
     .home .hero .hero-title {
-        letter-spacing: -1vw
+        letter-spacing: 0px
     }
 }
 
 @media(min-width:991px) {
     .home .hero .hero-title {
-        letter-spacing: -.5208333333vw
+        letter-spacing: 0px
     }
 }
 
@@ -17249,7 +17247,7 @@ a {
     .home .hero .hero-title {
         font-size: 10.590821256vw;
         line-height: 8.9009661836vw;
-        letter-spacing: -.943236715vw;
+        letter-spacing: 0px;
         z-index: 1;
         position: relative;
         background: linear-gradient(0deg, #000, transparent);
@@ -17274,7 +17272,6 @@ a {
 
 @media(max-width:991px)and (min-width:641px) {
     .home .hero .hero-title {
-        line-height: 4.9133333333vw
     }
 }
 
@@ -17286,13 +17283,13 @@ a {
 
 @media(max-width:991px)and (min-width:641px) {
     .home .hero .hero-title {
-        letter-spacing: -.5206666667vw
+        letter-spacing: 0px
     }
 }
 
 @media(max-width:991px)and (min-width:991px) {
     .home .hero .hero-title {
-        letter-spacing: -.2711805556vw
+        letter-spacing: 0px
     }
 }
 
@@ -41147,16 +41144,14 @@ h3+.embed-instagram {
     opacity: 0 !important
 }
 
-.hero-video-desktop-container {
-    background: url(/public-assets/images/landing/new/hero_mobile.jpg);
-    background-size: cover;
-    background-repaeat: no-repeat;
+.hero {
+background: url('/public-assets/images/heronew_mobile.webp'); 
+background-size: cover; 
+height:100vh
 }
 
 @media(min-width:991px) {
-.hero-video-desktop-container {
-    background: url(/public-assets/images/landing/new/hero_desktop.jpg);
-    background-size: cover;
-    background-repaeat: no-repeat;
+.hero {
+background: url('/public-assets/images/heronew_desktop.webp'); background-size: cover; height:100vh
 }
 }
