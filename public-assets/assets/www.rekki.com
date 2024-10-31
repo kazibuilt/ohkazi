@@ -324,19 +324,19 @@
 
 
 
-<meta property="al:ios:app_store_id" content="1216805389">
+
 <meta property="al:ios:app_name" content="Seamless order processing for suppliers and restaurants — cutting-edge tools to simplify your operations.">
 <meta property="al:android:app_name" content="Seamless order processing for suppliers and restaurants — cutting-edge tools to simplify your operations.">
-<meta property="al:android:package" content="rekkiapp.com.rekki.release">
 
-<meta name="twitter:site" content="@rekkiapp">
-<meta name="twitter:creator" content="@rekkiapp">
-<meta name="twitter:app:id:iphone" content="1216805389">
-<meta name="twitter:app:id:ipad" content="1216805389">
+
+<meta name="twitter:site" content="@d-g-m-com">
+<meta name="twitter:creator" content="@d-g-m-com">
+
+
 <meta name="twitter:app:name:ipad" content="Seamless order processing for suppliers and restaurants — cutting-edge tools to simplify your operations.">
 <meta name="twitter:app:name:iphone" content="Seamless order processing for suppliers and restaurants — cutting-edge tools to simplify your operations.">
 <meta name="twitter:app:name:googleplay" content="Seamless order processing for suppliers and restaurants — cutting-edge tools to simplify your operations.">
-<meta name="twitter:app:id:googleplay" content="rekkiapp.com.rekki.release">
+
 
 <link rel="apple-touch-icon" sizes="57x57" href="/public-assets/images/favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/public-assets/images/favicon/apple-icon-60x60.png">
@@ -494,19 +494,19 @@
 
   
   
-  <title>REKKI – We make wholesale operations smarter so you can serve better</title>
+  <title>DGM – We power the kitchens of our favourite restaurants</title>
   <meta name="description" content="Seamless order processing for suppliers and restaurants — cutting-edge tools to simplify your operations.">
-  <meta property="og:title" content="REKKI – We make wholesale operations smarter so you can serve better" />
+  <meta property="og:title" content="DGM – We power the kitchens of our favourite restaurants" />
   <meta property="og:url" content="https://rekki.com/" />
   <meta property="og:description" content="Seamless order processing for suppliers and restaurants — cutting-edge tools to simplify your operations.">
-  <meta property="og:image" content="https://rekki.com/public-assets/images/landing/new/og-image.jpg">
-  <meta property="og:image:alt" content="REKKI – We make wholesale operations smarter so you can serve better">
-  <meta property="og:site_name" content="REKKI.com">
+  <meta property="og:image" content="/public-assets/images/landing/new/og-image.jpg">
+  <meta property="og:image:alt" content="DGM – We power the kitchens of our favourite restaurants">
+  <meta property="og:site_name" content="D-G-M.com">
   <meta property="og:locale" content="en-gb">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://rekki.com/public-assets/images/landing/new/og-image.jpg">
-  <meta name="twitter:image:alt" content="REKKI – We make wholesale operations smarter so you can serve better">
+  <meta name="twitter:image" content="/public-assets/images/landing/new/og-image.jpg">
+  <meta name="twitter:image:alt" content="DGM – We power the kitchens of our favourite restaurants">
   
 
   <meta name="locale" content="en-gb">
@@ -1141,7 +1141,7 @@
     
 <div class="footer row justify-content-between">
   <div class="col col-sm order-3 order-md-3 order-lg-0">
-    <div class="footer-label-muted">© REKKI LTD 2024</div>
+    <div class="footer-label-muted">© DGM GmbH 2024</div>
   </div>
   <div class="col-sm-auto order-2 pr-lg-5 d-none d-lg-block">
     <div class="row">
@@ -1693,7 +1693,7 @@
           
 <div class="footer row justify-content-between">
   <div class="col col-sm order-3 order-md-3 order-lg-0">
-    <div class="footer-label-muted">© REKKI LTD 2024</div>
+    <div class="footer-label-muted">© DGM GmbH 2024</div>
   </div>
   <div class="col-sm-auto order-2 pr-lg-5 d-none d-lg-block">
     <div class="row">
@@ -1865,7 +1865,7 @@
           
 <div class="footer row justify-content-between">
   <div class="col col-sm order-3 order-md-3 order-lg-0">
-    <div class="footer-label-muted">© REKKI LTD 2024</div>
+    <div class="footer-label-muted">© DGM GmbH 2024</div>
   </div>
   <div class="col-sm-auto order-2 pr-lg-5 d-none d-lg-block">
     <div class="row">
@@ -2122,7 +2122,7 @@
           
 <div class="footer row justify-content-between">
   <div class="col col-sm order-3 order-md-3 order-lg-0">
-    <div class="footer-label-muted">© REKKI LTD 2024</div>
+    <div class="footer-label-muted">© DGM GmbH 2024</div>
   </div>
   <div class="col-sm-auto order-2 pr-lg-5 d-none d-lg-block">
     <div class="row">
@@ -2691,7 +2691,7 @@
       
 <div class="footer row justify-content-between">
   <div class="col col-sm order-3 order-md-3 order-lg-0">
-    <div class="footer-label-muted">© REKKI LTD 2024</div>
+    <div class="footer-label-muted">© DGM GmbH 2024</div>
   </div>
   <div class="col-sm-auto order-2 pr-lg-5 d-none d-lg-block">
     <div class="row">
@@ -3715,7 +3715,7 @@
     
 <div class="footer row justify-content-between">
   <div class="col col-sm order-3 order-md-3 order-lg-0">
-    <div class="footer-label-muted">© REKKI LTD 2024</div>
+    <div class="footer-label-muted">© DGM GmbH 2024</div>
   </div>
   <div class="col-sm-auto order-2 pr-lg-5 d-none d-lg-block">
     <div class="row">

@@ -19,6 +19,13 @@
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
       # "vscodevim.vim"
+      "arzg.xcode-theme"
+      "esbenp.prettier-vscode"
+      "mblode.pretty-formatter"
+      "pranaygp.vscode-css-peek"
+      "ritwickdey.LiveServer"
+      "sndst00m.vscode-native-svg-preview"
+      "yandeu.five-server"
     ];
 
     # Enable previews
