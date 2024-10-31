@@ -56,76 +56,7 @@
     <script>
         window.ENVIRONMENT = "live"
     </script>
-    <script>
-        (function(h, o, u, n, d) {
-            h = h[d] = h[d] || {
-                q: [],
-                onReady: function(c) {
-                    h.q.push(c)
-                }
-            }
-            d = o.createElement(u);
-            d.async = 1;
-            d.src = n n = o.getElementsByTagName(u)[0];
-            n.parentNode.insertBefore(d, n)
-        })(window, document, 'script', 'https://www.datadoghq-browser-agent.com/datadog-rum.js', 'DD_RUM') DD_RUM.onReady(function() {
-            DD_RUM.init({
-                applicationId: "491119d9-94fb-4998-9afe-e8ea84e6824a",
-                clientToken: "pub9bdb6b8cd87e85061dee9656d9bde8e2",
-                site: "datadoghq.eu",
-                service: "rekkicom",
-                env: ENVIRONMENT,
-                version: "0.0.1",
-                sampleRate: 100,
-                trackInteractions: false,
-            })
-        })
-    </script>
-    <script async src="/www.googletagmanager.com/gtag/js/index%EF%B9%96id=G-9W2WZTLM6J.js"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        var hasCookieConsent = window.localStorage.getItem("cookie-consent");
-        if (!hasCookieConsent) {
-            gtag('set', 'url_passthrough', true);
-            gtag('consent', 'default', {
-                'ad_user_data': 'denied',
-                'ad_personalization': 'denied',
-                'ad_storage': 'denied',
-                'analytics_storage': 'denied',
-                'wait_for_update': 500,
-            });
-        }
-        gtag('config', 'G-9W2WZTLM6J');
-
-        function consentGranted() {
-            gtag('consent', 'update', {
-                ad_user_data: 'granted',
-                ad_personalization: 'granted',
-                ad_storage: 'granted',
-                analytics_storage: 'granted'
-            });
-        }
-    </script>
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                "gtm.start": new Date().getTime(),
-                event: "gtm.js"
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != "dataLayer" ? "&l=" + l : "";
-            j.async = true;
-            j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, "script", "dataLayer", "GTM-PJBLFKQ");
-    </script>
     <script>
         (function(h, o, t, j, a, r) {
             h.hj = h.hj || function() {
