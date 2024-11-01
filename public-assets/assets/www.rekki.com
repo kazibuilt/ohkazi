@@ -537,7 +537,7 @@
   <div class="row no-gutters align-items-center">
     <div class="col-auto rekki-logo-container">
       <a href="/">
-        <img src="/public-assets/images/landing/new/rekki-bolder.svg" alt="REKKI logo" class="rekki-logo">
+        <img src="/public-assets/images/landing/new/logo.svg" alt="REKKI logo" class="rekki-logo">
       </a>
     </div>
     <a href="/" class="col-sm d-none d-lg-block logo-slogan">
@@ -2900,7 +2900,7 @@
     <div class="row no-gutters align-items-center">
       <div class="col-auto rekki-logo-container">
         <a href="/">
-          <img src="/public-assets/images/landing/new/rekki-bolder.svg" alt="REKKI logo" class="rekki-logo">
+          <img src="/public-assets/images/landing/new/logo.svg" alt="REKKI logo" class="rekki-logo">
         </a>
       </div>
       <div class="col mobile-nav-container">
